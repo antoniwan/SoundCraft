@@ -1,6 +1,6 @@
-# MUSIC: The Personal Audio System of Antonio Rodriguez Martinez (aka Antoniwan)
+# SoundCraft: The Personal Audio System of Antonio Rodriguez Martinez (aka Antoniwan)
 
-Welcome to `MUSIC/` — my self-hosted, version-controlled, fully automated music system.
+Welcome to `SoundCraft/` — my self-hosted, version-controlled, fully automated music system.
 
 This is more than a project. It's a creative engine — a digital studio, archive, and publishing system for everything I make as a musician, guitarist, and producer.
 
@@ -24,7 +24,7 @@ This system was built to:
 ## 📂 Folder Architecture
 
 ```
-MUSIC/
+SoundCraft/
 ├── SHORT-SONGS/     # Finalized short MP3 tracks
 ├── BEATS/           # Drum patterns, sample loops
 ├── GUITAR-RIFFS/    # Raw or processed guitar snippets
@@ -96,7 +96,7 @@ When using my songs, you **must** include:
 
 **Name**: Antonio Rodriguez Martinez (aka Antoniwan)  
 **Link**: [https://stronghandssoftheart.com](https://stronghandssoftheart.com)  
-**Project**: MUSIC  
+**Project**: SoundCraft  
 **License**: CC BY-NC-SA 4.0
 
 ---
