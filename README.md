@@ -1,4 +1,4 @@
-# MUSIC: The Personal Audio System of Antonio Rodriguez (aka Beastiex)
+# MUSIC: The Personal Audio System of Antonio Rodriguez Martinez (aka Antoniwan)
 
 Welcome to `MUSIC/` — my self-hosted, version-controlled, fully automated music system.
 
@@ -23,18 +23,34 @@ This system was built to:
 
 ## 📂 Folder Architecture
 
+```
 MUSIC/
-├── SHORT-SONGS/ # Finalized short MP3 tracks  
-├── BEATS/ # Drum patterns, sample loops  
-├── GUITAR-RIFFS/ # Raw or processed guitar snippets  
-├── TABS/ # Guitar tablature (PDF, TXT, .gp5, etc.)  
-├── MIDI/ # MIDI files and project ideas  
-├── VIDEOS/ # Music videos or visual snippets  
-├── RAW/ # WAVs, DI, stems, multitrack sessions  
-├── PRESETS/ # Quad Cortex or plugin presets  
-├── METADATA/ # Markdown descriptions of each item  
-├── PLAYLISTS/ # .m3u or .json playlists  
-└── .vscode/ # VS Code workspace settings
+├── SHORT-SONGS/     # Finalized short MP3 tracks
+├── BEATS/           # Drum patterns, sample loops
+├── GUITAR-RIFFS/    # Raw or processed guitar snippets
+├── TABS/            # Guitar tablature (PDF, TXT, .gp5, etc.)
+├── MIDI/            # MIDI files and project ideas
+├── VIDEOS/          # Music videos or visual snippets
+├── RAW/             # WAVs, DI, stems, multitrack sessions
+├── PRESETS/         # Quad Cortex or plugin presets
+├── METADATA/        # Markdown descriptions of each item
+├── PLAYLISTS/       # .m3u or .json playlists
+└── .vscode/         # VS Code workspace settings
+```
+
+Each folder serves a specific purpose in organizing and managing different types of musical content:
+
+- **SHORT-SONGS**: Complete, finalized tracks ready for distribution
+- **BEATS**: Drum patterns and sample loops for production
+- **GUITAR-RIFFS**: Guitar recordings, both raw and processed
+- **TABS**: Guitar tablature in various formats
+- **MIDI**: MIDI files and project ideas for further development
+- **VIDEOS**: Music videos and visual content
+- **RAW**: Original recordings, stems, and multitrack sessions
+- **PRESETS**: Equipment and plugin presets
+- **METADATA**: Documentation and descriptions for all content
+- **PLAYLISTS**: Curated collections of tracks
+- **.vscode**: Development environment configuration
 
 ---
 
@@ -71,6 +87,17 @@ You can:
 - Contact me for commercial licensing opportunities
 
 For full license details, see [LICENSING-MY-MUSIC.md](LICENSING-MY-MUSIC.md).
+
+---
+
+## Attribution Requirements
+
+When using my songs, you **must** include:
+
+**Name**: Antonio Rodriguez Martinez (aka Antoniwan)  
+**Link**: [https://stronghandssoftheart.com](https://stronghandssoftheart.com)  
+**Project**: MUSIC  
+**License**: CC BY-NC-SA 4.0
 
 ---
 

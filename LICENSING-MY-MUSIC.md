@@ -23,9 +23,9 @@ This license lets you:
 
 When using my songs, you **must** include:
 
-**Name**: Antonio Rodriguez (aka Beastiex)  
+**Name**: Antonio Rodriguez Martinez (aka Antoniwan)  
 **Link**: [https://stronghandssoftheart.com](https://stronghandssoftheart.com)  
-**Project**: SHORT-SONGS  
+**Project**: MUSIC  
 **License**: CC BY-NC-SA 4.0
 
 ---
