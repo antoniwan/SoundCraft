@@ -73,6 +73,30 @@ Each folder serves a specific purpose in organizing and managing different types
 | 4     | Export to Astro blog                 | 🔜 Future      |
 | 5     | GitHub Actions for publishing        | 🔜 Future      |
 | 6     | CLI for tagging/publishing           | 🔜 Stretch     |
+| 7     | Project analytics and insights       | ✅ Done        |
+
+---
+
+## 🎵 Features
+
+### Project Analysis
+
+The system now includes a comprehensive project analysis tool that provides insights into your music production:
+
+- **File Type Distribution**: Shows the breakdown of audio files (MP3, WAV, MIDI) and their percentages
+- **File Size Analysis**:
+  - Total project size
+  - Average file size
+  - Largest and smallest files
+  - All sizes in human-readable format
+- **Directory Structure**:
+  - Total directories and files
+  - Audio file percentage of total files
+- **File Age Analysis**:
+  - Oldest and newest files with timestamps
+  - Project age calculation
+
+To use this feature, run the program and select "Analyze Project" from the menu.
 
 ---
 
