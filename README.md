@@ -107,7 +107,7 @@ Want to use this music in a film, podcast, game, or paid project?
 
 I'm open to licensing, sync rights, and collaborations. Let's build something together.
 
-📧 antoniorodriguez@proton.me  
+📧 hello@stronghandssoftheart.com  
 🌐 https://stronghandssoftheart.com
 
 ---

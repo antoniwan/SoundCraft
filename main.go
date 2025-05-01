@@ -9,19 +9,36 @@ import (
 )
 
 var (
+	// Brand colors from builds.software
 	titleStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#FF06B7")).
+			Foreground(lipgloss.Color("#FFFFFF")).
 			Bold(true).
-			Padding(1, 2)
+			Padding(0, 1)
 
 	menuItemStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#FFFFFF")).
+			Foreground(lipgloss.Color("#3D566F")).
 			PaddingLeft(2)
 
 	selectedItemStyle = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("#FF06B7")).
-				Bold(true).
-				PaddingLeft(2)
+			Foreground(lipgloss.Color("#FFDC00")).
+			Bold(true).
+			PaddingLeft(2)
+
+	footerLineStyle = lipgloss.NewStyle().
+			Foreground(lipgloss.Color("#3D566F")).
+			Faint(true)
+
+	footerThanksStyle = lipgloss.NewStyle().
+			Foreground(lipgloss.Color("#FFDC00")).
+			Bold(true)
+
+	footerQuoteStyle = lipgloss.NewStyle().
+			Foreground(lipgloss.Color("#AAAAAA")).
+			Italic(true)
+
+	footerLinkStyle = lipgloss.NewStyle().
+			Foreground(lipgloss.Color("#0074D9")).
+			Underline(true)
 )
 
 type model struct {
@@ -33,6 +50,7 @@ type model struct {
 func initialModel() model {
 	return model{
 		choices: []string{"Show Greeting", "Exit Program"},
+		selected: -1,
 	}
 }
 
@@ -66,12 +84,12 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m model) View() string {
-	s := titleStyle.Render("SoundCrafter Menu") + "\n\n"
+	s := "\n" + titleStyle.Render("SoundCrafter Menu") + "\n\n"
 
 	for i, choice := range m.choices {
-		cursor := " "
+		cursor := "  "
 		if m.cursor == i {
-			cursor = ">"
+			cursor = "> "
 		}
 
 		style := menuItemStyle
@@ -79,7 +97,7 @@ func (m model) View() string {
 			style = selectedItemStyle
 		}
 
-		s += fmt.Sprintf("%s %s\n", cursor, style.Render(choice))
+		s += fmt.Sprintf("%s%s\n", cursor, style.Render(choice))
 	}
 
 	if m.selected != -1 && m.choices[m.selected] == "Show Greeting" {
@@ -87,6 +105,15 @@ func (m model) View() string {
 	}
 
 	s += "\nPress q to quit.\n"
+
+	// --- Footer ---
+	s += "\n" + footerLineStyle.Render("────────────────────────────────────────────────────────────") + "\n"
+	s += footerThanksStyle.Render("Thanks for using SoundCrafter!") + "\n"
+	s += footerQuoteStyle.Render("This is my musical core. A ritual space. A structured outlet. A living archive. Welcome to the forge.") + "\n\n"
+	s += "" +
+		"" + footerLinkStyle.Render("Antonio Rodriguez Martinez (Antoniwan)") + "  |  " +
+		footerLinkStyle.Render("https://stronghandssoftheart.com") + "  |  " +
+		footerLinkStyle.Render("hello@stronghandssoftheart.com") + "\n"
 
 	return s
 }
