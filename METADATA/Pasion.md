@@ -16,7 +16,7 @@ A spontaneous urban/dembow track created during a Facetime session with my daugh
 "Gafas rojas, Peach en la pista,
 Mia bailando, ¡nadie la despista!"
 
-The track was created in just 10 minutes, showcasing the creative energy of the moment.
+The track was created in just 10 minutes, showcasing the creative energy of the moment. The inspiration came from watching my daughter play with her Princess Peach doll while wearing red sunglasses, dancing along to the beat-making process. This spontaneous family moment perfectly captures the joy and creativity of making music together.
 
 ## Production Notes
 
@@ -32,7 +32,7 @@ The track was created in just 10 minutes, showcasing the creative energy of the 
 - Mood: Playful, Energetic, Fun
 - Creation Context: Family Collaboration
 - Style: Latin Urban
-- Tempo: [Add tempo]
+- Tempo: 92 BPM
 
 ## License
 
