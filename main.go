@@ -219,4 +219,39 @@ func (m model) View() string {
 
 		style := menuItemStyle
 		if m.cursor == i {
-			style = select
+			style = selectedItemStyle
+		}
+
+		s += fmt.Sprintf("%s%s\n", cursor, style.Render(choice))
+	}
+
+	if m.selected != -1 {
+		switch m.choices[m.selected] {
+		case "Show Greeting":
+			s += "\n" + titleStyle.Render("HELLO SOUNDCRAFTER!") + "\n"
+		case "Generate Playlists":
+			s += "\n" + m.message + "\n"
+		}
+	}
+
+	s += "\nPress q to quit.\n"
+
+	// --- Footer ---
+	s += "\n" + footerLineStyle.Render("────────────────────────────────────────────────────────────") + "\n"
+	s += footerThanksStyle.Render("Thanks for using SoundCrafter!") + "\n"
+	s += footerQuoteStyle.Render("This is my musical core. A ritual space. A structured outlet. A living archive. Welcome to the forge.") + "\n\n"
+	s += "" +
+		"" + footerLinkStyle.Render("Antonio Rodriguez Martinez (Antoniwan)") + "  |  " +
+		footerLinkStyle.Render("https://stronghandssoftheart.com") + "  |  " +
+		footerLinkStyle.Render("hello@stronghandssoftheart.com") + "\n"
+
+	return s
+}
+
+func main() {
+	p := tea.NewProgram(initialModel())
+	if _, err := p.Run(); err != nil {
+		fmt.Printf("Alas, there's been an error: %v", err)
+		os.Exit(1)
+	}
+}
