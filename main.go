@@ -53,7 +53,7 @@ type model struct {
 
 func initialModel() model {
 	return model{
-		choices: []string{"Show Greeting", "Generate Playlists", "Exit Program"},
+		choices: []string{"Show Greeting", "Generate Playlists", "Analyze Project", "Exit Program"},
 		selected: -1,
 	}
 }
@@ -176,6 +176,135 @@ func createM3UPlaylist(filename string, files []string) error {
 	return nil
 }
 
+func analyzeProject() string {
+	var result strings.Builder
+	result.WriteString("\nProject Analysis:\n\n")
+
+	// Get all audio files
+	files, err := scanAudioFiles()
+	if err != nil {
+		return fmt.Sprintf("Error analyzing project: %v", err)
+	}
+
+	// Total file counts
+	totalFiles := 0
+	for _, fileList := range files {
+		totalFiles += len(fileList)
+	}
+
+	// File type distribution
+	result.WriteString("File Type Distribution:\n")
+	for fileType, fileList := range files {
+		percentage := float64(len(fileList)) / float64(totalFiles) * 100
+		result.WriteString(fmt.Sprintf("  %s: %d files (%.1f%%)\n", 
+			strings.ToUpper(fileType), len(fileList), percentage))
+	}
+
+	// File size analysis
+	var totalSize int64
+	var largestFile string
+	var largestSize int64
+	var smallestFile string
+	var smallestSize int64 = -1
+
+	for _, fileList := range files {
+		for _, file := range fileList {
+			info, err := os.Stat(file)
+			if err != nil {
+				continue
+			}
+			size := info.Size()
+			totalSize += size
+
+			if size > largestSize {
+				largestSize = size
+				largestFile = file
+			}
+			if smallestSize == -1 || size < smallestSize {
+				smallestSize = size
+				smallestFile = file
+			}
+		}
+	}
+
+	// Convert sizes to human-readable format
+	formatSize := func(size int64) string {
+		const unit = 1024
+		if size < unit {
+			return fmt.Sprintf("%d B", size)
+		}
+		div, exp := int64(unit), 0
+		for n := size / unit; n >= unit; n /= unit {
+			div *= unit
+			exp++
+		}
+		return fmt.Sprintf("%.1f %cB", float64(size)/float64(div), "KMGTPE"[exp])
+	}
+
+	result.WriteString("\nFile Size Analysis:\n")
+	result.WriteString(fmt.Sprintf("  Total Project Size: %s\n", formatSize(totalSize)))
+	result.WriteString(fmt.Sprintf("  Average File Size: %s\n", formatSize(totalSize/int64(totalFiles))))
+	result.WriteString(fmt.Sprintf("  Largest File: %s (%s)\n", largestFile, formatSize(largestSize)))
+	result.WriteString(fmt.Sprintf("  Smallest File: %s (%s)\n", smallestFile, formatSize(smallestSize)))
+
+	// Directory structure analysis
+	var dirCount int
+	var fileCount int
+	err = filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if info.IsDir() {
+			dirCount++
+		} else {
+			fileCount++
+		}
+		return nil
+	})
+
+	if err == nil {
+		result.WriteString("\nDirectory Structure:\n")
+		result.WriteString(fmt.Sprintf("  Total Directories: %d\n", dirCount))
+		result.WriteString(fmt.Sprintf("  Total Files: %d\n", fileCount))
+		result.WriteString(fmt.Sprintf("  Audio Files: %d (%.1f%% of total files)\n", 
+			totalFiles, float64(totalFiles)/float64(fileCount)*100))
+	}
+
+	// Last modified analysis
+	var oldestFile string
+	var oldestTime time.Time
+	var newestFile string
+	var newestTime time.Time
+
+	for _, fileList := range files {
+		for _, file := range fileList {
+			info, err := os.Stat(file)
+			if err != nil {
+				continue
+			}
+			modTime := info.ModTime()
+			if oldestTime.IsZero() || modTime.Before(oldestTime) {
+				oldestTime = modTime
+				oldestFile = file
+			}
+			if newestTime.IsZero() || modTime.After(newestTime) {
+				newestTime = modTime
+				newestFile = file
+			}
+		}
+	}
+
+	result.WriteString("\nFile Age Analysis:\n")
+	result.WriteString(fmt.Sprintf("  Oldest File: %s (%s)\n", 
+		oldestFile, oldestTime.Format("2006-01-02 15:04:05")))
+	result.WriteString(fmt.Sprintf("  Newest File: %s (%s)\n", 
+		newestFile, newestTime.Format("2006-01-02 15:04:05")))
+	result.WriteString(fmt.Sprintf("  Project Age: %s\n", 
+		time.Since(oldestTime).Round(time.Hour*24).String()))
+
+	return result.String()
+}
+
 func (m model) Init() tea.Cmd {
 	return nil
 }
@@ -201,6 +330,8 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				return m, tea.Quit
 			case "Generate Playlists":
 				m.message = generatePlaylists()
+			case "Analyze Project":
+				m.message = analyzeProject()
 			}
 		}
 	}
@@ -230,6 +361,8 @@ func (m model) View() string {
 		case "Show Greeting":
 			s += "\n" + titleStyle.Render("HELLO SOUNDCRAFTER!") + "\n"
 		case "Generate Playlists":
+			s += "\n" + m.message + "\n"
+		case "Analyze Project":
 			s += "\n" + m.message + "\n"
 		}
 	}
