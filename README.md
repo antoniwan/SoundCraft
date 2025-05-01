@@ -1,8 +1,8 @@
 # MUSIC: The Personal Audio System of Antonio Rodriguez (aka Beastiex)
 
-Welcome to `FORGE/MUSIC/` — my self-hosted, version-controlled, fully automated music system.
+Welcome to `MUSIC/` — my self-hosted, version-controlled, fully automated music system.
 
-This is more than a project. It’s a creative engine — a digital studio, archive, and publishing system for everything I make as a musician, guitarist, and producer.
+This is more than a project. It's a creative engine — a digital studio, archive, and publishing system for everything I make as a musician, guitarist, and producer.
 
 All content here is original and handcrafted: riffs, beats, short songs, tabs, MIDI, video, presets, and metadata.
 
@@ -17,12 +17,13 @@ This system was built to:
 - Apply systems thinking and coding to creative output
 - Create a sharable, open, and negotiable music platform
 - Build a legacy of structured, reproducible art
+- Provide a clear licensing framework for both non-commercial and commercial use
 
 ---
 
 ## 📂 Folder Architecture
 
-FORGE/MUSIC/
+MUSIC/
 ├── SHORT-SONGS/ # Finalized short MP3 tracks  
 ├── BEATS/ # Drum patterns, sample loops  
 ├── GUITAR-RIFFS/ # Raw or processed guitar snippets  
@@ -31,14 +32,9 @@ FORGE/MUSIC/
 ├── VIDEOS/ # Music videos or visual snippets  
 ├── RAW/ # WAVs, DI, stems, multitrack sessions  
 ├── PRESETS/ # Quad Cortex or plugin presets  
-├── COVERS/ # Artwork for each piece  
 ├── METADATA/ # Markdown descriptions of each item  
 ├── PLAYLISTS/ # .m3u or .json playlists  
-└── SRC/ # Go source code for automation  
- ├── playlist/  
- ├── metadata/  
- ├── validator/  
- └── internal/
+└── .vscode/ # VS Code workspace settings
 
 ---
 
@@ -66,14 +62,15 @@ FORGE/MUSIC/
 
 ## 📜 License
 
-All original works in this system are licensed under a customized version of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+All original works in this system are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
 You can:
 
 - Use and remix the material for non-commercial purposes
 - Share your adaptations with credit and under the same license
+- Contact me for commercial licensing opportunities
 
-For full license details, see LICENSE.
+For full license details, see [LICENSING-MY-MUSIC.md](LICENSING-MY-MUSIC.md).
 
 ---
 
@@ -81,7 +78,7 @@ For full license details, see LICENSE.
 
 Want to use this music in a film, podcast, game, or paid project?
 
-I’m open to licensing, sync rights, and collaborations. Let’s build something together.
+I'm open to licensing, sync rights, and collaborations. Let's build something together.
 
 📧 antoniorodriguez@proton.me  
 🌐 https://stronghandssoftheart.com
@@ -92,6 +89,7 @@ I’m open to licensing, sync rights, and collaborations. Let’s build somethin
 
 - [x] Establish folder system
 - [x] Create initial README and LICENSE
+- [x] Set up basic Git repository
 - [ ] Build generate_playlist.go
 - [ ] Build generate_metadata.go
 - [ ] Build validate_assets.go
