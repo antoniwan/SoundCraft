@@ -1,76 +1,111 @@
-# SHORT-SONGS 🎵
+# MUSIC: The Personal Audio System of Antonio Rodriguez (aka Beastiex)
 
-A collection of short, experimental music tracks and soundscapes. This repository serves as both a creative archive and a development playground for music-related automation tools.
+Welcome to `FORGE/MUSIC/` — my self-hosted, version-controlled, fully automated music system.
 
----
+This is more than a project. It’s a creative engine — a digital studio, archive, and publishing system for everything I make as a musician, guitarist, and producer.
 
-## 🛠️ Features (Implemented or Planned)
-
-### ✅ Current Features
-
-- `init_structure.py`: Automatically sets up project folders.
-- Python 3.13.3 on Windows 11 (dev environment)
-- Cursor AI + Git for full-code automation
-
-### 🔜 Planned Features (To Build)
-
-- `generate_playlist.py`: Build `playlist.m3u` from tracks folder
-- `generate_metadata.py`: Extract MP3 metadata and auto-create `.md` files
-- `validate_assets.py`: Ensure every song has matching metadata + cover
-- Git LFS for MP3s (optional)
-- Markdown-to-HTML conversion for export to Astro blog
-- Sync finished tracks to VAULT drive
-- CLI tool: `shortsongs publish` to handle push + automation
+All content here is original and handcrafted: riffs, beats, short songs, tabs, MIDI, video, presets, and metadata.
 
 ---
 
-## 📈 Roadmap
+## 🎯 Purpose
 
-| Phase | Feature                               | Status          |
-| ----- | ------------------------------------- | --------------- |
-| 1     | Folder structure + Git init           | ✅ Done         |
-| 2     | Playlist + Metadata generation        | 🔄 In Progress  |
-| 3     | Asset validation                      | ⏳ Coming       |
-| 4     | Git LFS support                       | ⏳ Optional     |
-| 5     | Audio tagging (ID3 + album art embed) | 🔜 Future       |
-| 6     | Astro blog / web player               | 🔜 Future       |
-| 7     | Track ratings + categories            | 🔜 Stretch Goal |
-| 8     | CLI Tool for publishing               | 🔜 Stretch Goal |
+This system was built to:
+
+- Archive and share my music: guitar riffs, beats, songs, videos, and more
+- Automate playlist creation, metadata generation, and validation
+- Apply systems thinking and coding to creative output
+- Create a sharable, open, and negotiable music platform
+- Build a legacy of structured, reproducible art
+
+---
+
+## 📂 Folder Architecture
+
+FORGE/MUSIC/
+├── SHORT-SONGS/ # Finalized short MP3 tracks  
+├── BEATS/ # Drum patterns, sample loops  
+├── GUITAR-RIFFS/ # Raw or processed guitar snippets  
+├── TABS/ # Guitar tablature (PDF, TXT, .gp5, etc.)  
+├── MIDI/ # MIDI files and project ideas  
+├── VIDEOS/ # Music videos or visual snippets  
+├── RAW/ # WAVs, DI, stems, multitrack sessions  
+├── PRESETS/ # Quad Cortex or plugin presets  
+├── COVERS/ # Artwork for each piece  
+├── METADATA/ # Markdown descriptions of each item  
+├── PLAYLISTS/ # .m3u or .json playlists  
+└── SRC/ # Go source code for automation  
+ ├── playlist/  
+ ├── metadata/  
+ ├── validator/  
+ └── internal/
+
+---
+
+## 🧠 Tech Stack
+
+- OS: Windows 11 (primary), macOS + iOS (secondary)
+- Gear: Quad Cortex, guitar, DAWs (FL Studio, Logic, GarageBand)
+- Language: Go (backend automation)
+- Workflow: Git, GitHub, local automation, blog export (Astro)
+
+---
+
+## 🚀 Roadmap
+
+| Phase | Feature                              | Status         |
+| ----- | ------------------------------------ | -------------- |
+| 1     | Folder system and Git setup          | ✅ Done        |
+| 2     | Playlist + metadata generators       | 🔄 In Progress |
+| 3     | Asset validation and coverage checks | ⏳ Planned     |
+| 4     | Export to Astro blog                 | 🔜 Future      |
+| 5     | GitHub Actions for publishing        | 🔜 Future      |
+| 6     | CLI for tagging/publishing           | 🔜 Stretch     |
 
 ---
 
 ## 📜 License
 
-All original works are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+All original works in this system are licensed under a customized version of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-> TL;DR: You can share and remix these songs non-commercially. Just credit me and use the same license.
+You can:
 
-See [LICENSING-MY-MUSIC.md](LICENSING-MY-MUSIC.md) for full terms and attribution requirements.
+- Use and remix the material for non-commercial purposes
+- Share your adaptations with credit and under the same license
+
+For full license details, see LICENSE.
 
 ---
 
-## 📬 Contact
+## 🤝 Collaboration and Licensing
 
-- 👤 Antonio Rodriguez (Beastiex)
-- 🌐 [stronghandssoftheart.com](https://www.stronghandssoftheart.com)
-- 💌 Contact: antoniorodriguez@proton.me
+Want to use this music in a film, podcast, game, or paid project?
+
+I’m open to licensing, sync rights, and collaborations. Let’s build something together.
+
+📧 antoniorodriguez@proton.me  
+🌐 https://stronghandssoftheart.com
 
 ---
 
 ## ✅ To-Do Checklist
 
-- [x] Set up folder scaffolding
-- [ ] Add MP3 track samples
-- [ ] Run playlist and metadata generators
-- [ ] Write cover art or auto-generate from keywords
-- [ ] Automate blog export / publishing
-- [ ] Sync to VAULT for archival
-- [ ] Design visual theme for each song family
+- [x] Establish folder system
+- [x] Create initial README and LICENSE
+- [ ] Build generate_playlist.go
+- [ ] Build generate_metadata.go
+- [ ] Build validate_assets.go
+- [ ] Add real content to SHORT-SONGS, BEATS, GUITAR-RIFFS
+- [ ] Export selected content to Astro blog
+- [ ] Build automation CLI
 
 ---
 
 ## 🧙‍♂️ Final Word
 
-This is more than a repo. It's a living, evolving **spellbook of sound** — a record of my thoughts, emotions, and power through music.
+This is my musical core.  
+A ritual space.  
+A structured outlet.  
+A living archive.
 
-If you're here reading this… welcome to my mind.
+Welcome to the forge.
