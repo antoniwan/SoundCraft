@@ -1,4 +1,4 @@
-# SoundCraft: The Personal Audio System of Antonio Rodriguez Martinez (aka Antoniwan)
+# SoundCraft: Personal Audio System
 
 Welcome to `SoundCraft/` — my self-hosted, version-controlled, fully automated music system.
 
