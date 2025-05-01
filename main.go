@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
+	"strings"
+	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
@@ -45,13 +48,132 @@ type model struct {
 	choices  []string
 	cursor   int
 	selected int
+	message  string
 }
 
 func initialModel() model {
 	return model{
-		choices: []string{"Show Greeting", "Exit Program"},
+		choices: []string{"Show Greeting", "Generate Playlists", "Exit Program"},
 		selected: -1,
 	}
+}
+
+func scanAudioFiles() (map[string][]string, error) {
+	files := make(map[string][]string)
+	
+	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		
+		if !info.IsDir() {
+			ext := strings.ToLower(filepath.Ext(path))
+			switch ext {
+			case ".mp3":
+				files["mp3"] = append(files["mp3"], path)
+			case ".wav":
+				files["wav"] = append(files["wav"], path)
+			case ".mid", ".midi":
+				files["midi"] = append(files["midi"], path)
+			}
+		}
+		return nil
+	})
+	
+	return files, err
+}
+
+func generatePlaylists() string {
+	files, err := scanAudioFiles()
+	if err != nil {
+		return fmt.Sprintf("Error scanning files: %v", err)
+	}
+
+	if len(files) == 0 {
+		return "No audio files found in the current directory."
+	}
+
+	// Create playlists directory if it doesn't exist
+	playlistsDir := "playlists"
+	if err := os.MkdirAll(playlistsDir, 0755); err != nil {
+		return fmt.Sprintf("Error creating playlists directory: %v", err)
+	}
+
+	// Generate timestamp for unique playlist names
+	timestamp := time.Now().Format("20060102_150405")
+	
+	// Generate all audio files playlist
+	allFiles := make([]string, 0)
+	for _, fileList := range files {
+		allFiles = append(allFiles, fileList...)
+	}
+	
+	if len(allFiles) > 0 {
+		if err := createM3UPlaylist(filepath.Join(playlistsDir, fmt.Sprintf("all_audio_%s.m3u", timestamp)), allFiles); err != nil {
+			return fmt.Sprintf("Error creating all audio playlist: %v", err)
+		}
+	}
+
+	// Generate type-specific playlists
+	for fileType, fileList := range files {
+		if len(fileList) > 0 {
+			playlistName := fmt.Sprintf("%s_files_%s.m3u", fileType, timestamp)
+			if err := createM3UPlaylist(filepath.Join(playlistsDir, playlistName), fileList); err != nil {
+				return fmt.Sprintf("Error creating %s playlist: %v", fileType, err)
+			}
+		}
+	}
+
+	// Build result message
+	var result strings.Builder
+	result.WriteString("\nGenerated playlists:\n\n")
+	
+	if len(allFiles) > 0 {
+		result.WriteString(fmt.Sprintf("All Audio Files: playlists/all_audio_%s.m3u\n", timestamp))
+	}
+	
+	for fileType, fileList := range files {
+		if len(fileList) > 0 {
+			result.WriteString(fmt.Sprintf("%s Files: playlists/%s_files_%s.m3u\n", 
+				strings.ToUpper(fileType), fileType, timestamp))
+		}
+	}
+	
+	result.WriteString("\nPlaylists have been created in the 'playlists' directory.\n")
+	result.WriteString("You can open these .m3u files with any standard media player.\n")
+
+	return result.String()
+}
+
+func createM3UPlaylist(filename string, files []string) error {
+	file, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	// Write M3U header
+	_, err = file.WriteString("#EXTM3U\n")
+	if err != nil {
+		return err
+	}
+
+	// Write each file path
+	for _, filePath := range files {
+		// Convert to absolute path
+		absPath, err := filepath.Abs(filePath)
+		if err != nil {
+			return err
+		}
+		
+		// Write the file path
+		_, err = file.WriteString(absPath + "\n")
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
 }
 
 func (m model) Init() tea.Cmd {
@@ -74,8 +196,11 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 		case "enter", " ":
 			m.selected = m.cursor
-			if m.choices[m.selected] == "Exit Program" {
+			switch m.choices[m.selected] {
+			case "Exit Program":
 				return m, tea.Quit
+			case "Generate Playlists":
+				m.message = generatePlaylists()
 			}
 		}
 	}
@@ -94,34 +219,4 @@ func (m model) View() string {
 
 		style := menuItemStyle
 		if m.cursor == i {
-			style = selectedItemStyle
-		}
-
-		s += fmt.Sprintf("%s%s\n", cursor, style.Render(choice))
-	}
-
-	if m.selected != -1 && m.choices[m.selected] == "Show Greeting" {
-		s += "\n" + titleStyle.Render("HELLO SOUNDCRAFTER!") + "\n"
-	}
-
-	s += "\nPress q to quit.\n"
-
-	// --- Footer ---
-	s += "\n" + footerLineStyle.Render("────────────────────────────────────────────────────────────") + "\n"
-	s += footerThanksStyle.Render("Thanks for using SoundCrafter!") + "\n"
-	s += footerQuoteStyle.Render("This is my musical core. A ritual space. A structured outlet. A living archive. Welcome to the forge.") + "\n\n"
-	s += "" +
-		"" + footerLinkStyle.Render("Antonio Rodriguez Martinez (Antoniwan)") + "  |  " +
-		footerLinkStyle.Render("https://stronghandssoftheart.com") + "  |  " +
-		footerLinkStyle.Render("hello@stronghandssoftheart.com") + "\n"
-
-	return s
-}
-
-func main() {
-	p := tea.NewProgram(initialModel())
-	if _, err := p.Run(); err != nil {
-		fmt.Printf("Alas, there's been an error: %v", err)
-		os.Exit(1)
-	}
-}
+			style = select
