@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1" ?><ilversioninfo><item>
+              <guid>297</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:30:26.022553+01</pubDate>
+              <publicid>37041696969</publicid>
+              <title>Sytrus FLVSTi/DXi (Groupbuy)</title>
+              <name></name>
+              <version>2.6.93.33</version>
+              <versionDate>2019-03-20</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/sytrus_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>42038544</filesize>
+            </item><item>
+              <guid>320</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31020</publicid>
+              <title>FL Studio Producer Edition</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>320</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31020</publicid>
+              <title>FL Studio Producer Edition</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>321</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31010</publicid>
+              <title>FL Studio Fruity Edition</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>321</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31010</publicid>
+              <title>FL Studio Fruity Edition</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>338</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:50.504343+01</pubDate>
+              <publicid>33000</publicid>
+              <title>DrumSynth Live (FL/VSTi)</title>
+              <name>DrumSynth Live</name>
+              <version>1.1.50</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/drumsynth/drumsynthlive_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>33807648</filesize>
+            </item><item>
+              <guid>339</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:27:49.597475+01</pubDate>
+              <publicid>33110</publicid>
+              <title>SimSynth Live (FL/VSTi)</title>
+              <name>SimSynth</name>
+              <version>1.1.15</version>
+              <versionDate>2014-02-14</versionDate>
+              <download_url>https://downloads.image-line.com/simsynth/simsynth_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7211578</filesize>
+            </item><item>
+              <guid>340</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:25:32.636158+01</pubDate>
+              <publicid>33300</publicid>
+              <title>WASP &amp; WASP XT (FL/VSTi)</title>
+              <name>Wasp</name>
+              <version>2.2.10</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/wasp/wasp_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7594193</filesize>
+            </item><item>
+              <guid>343</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:45.601332+01</pubDate>
+              <publicid>37020</publicid>
+              <title>DX-10 (FL/VSTi)</title>
+              <name>DX10</name>
+              <version>1.1.14</version>
+              <versionDate>2014-02-14</versionDate>
+              <download_url>https://downloads.image-line.com/dx-10/dx-10_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7125111</filesize>
+            </item><item>
+              <guid>344</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:10.997157+01</pubDate>
+              <publicid>37030</publicid>
+              <title>Soundfont Player (FL Studio Only)</title>
+              <name>Soundfont Player</name>
+              <version>11.0.4</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/flstudio/flstudio_11.0.4.exe</download_url>
+              <changelog_url>http://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>314810096</filesize>
+            </item><item>
+              <guid>346</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:15.145481+01</pubDate>
+              <publicid>37050</publicid>
+              <title>Fruity Video Player (FL Studio Only)</title>
+              <name>VideoPlayer</name>
+              <version>11.0.4</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/flstudio/flstudio_11.0.4.exe</download_url>
+              <changelog_url>http://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>314810096</filesize>
+            </item><item>
+              <guid>350</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:30:26.022553+01</pubDate>
+              <publicid>37041</publicid>
+              <title>Sytrus VSTi/DXi</title>
+              <name></name>
+              <version>2.6.93.33</version>
+              <versionDate>2019-03-20</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/sytrus_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>42038544</filesize>
+            </item><item>
+              <guid>351</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:30:11.61576+01</pubDate>
+              <publicid>37061</publicid>
+              <title>DirectWave VSTi</title>
+              <name>DirectWave</name>
+              <version>1.6.3.0</version>
+              <versionDate>2014-05-15</versionDate>
+              <download_url>https://downloads.image-line.com/directwave/directwavevst_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>43149304</filesize>
+            </item><item>
+              <guid>352</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:56.370874+01</pubDate>
+              <publicid>37010</publicid>
+              <title>Juice Pack (VST)</title>
+              <name>Juice Pack</name>
+              <version>2.1.38</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/juicepack/juicepack_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>39054528</filesize>
+            </item><item>
+              <guid>353</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:45.601332+01</pubDate>
+              <publicid>37021</publicid>
+              <title>DX-10 VSTi/DXi</title>
+              <name>DX10</name>
+              <version>1.1.14</version>
+              <versionDate>2014-02-14</versionDate>
+              <download_url>https://downloads.image-line.com/dx-10/dx-10_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7125111</filesize>
+            </item><item>
+              <guid>354</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:27:49.597475+01</pubDate>
+              <publicid>37110</publicid>
+              <title>SimSynth VSTi/DXi</title>
+              <name>SimSynth</name>
+              <version>1.1.15</version>
+              <versionDate>2014-02-14</versionDate>
+              <download_url>https://downloads.image-line.com/simsynth/simsynth_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7211578</filesize>
+            </item><item>
+              <guid>355</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:25:32.636158+01</pubDate>
+              <publicid>37310</publicid>
+              <title>WASP &amp; WASP XT VSTi/DXi</title>
+              <name>Wasp</name>
+              <version>2.2.10</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/wasp/wasp_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>7594193</filesize>
+            </item><item>
+              <guid>394</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:06.110266+01</pubDate>
+              <publicid>FLDWNLDR</publicid>
+              <title>Content Library - IL Downloader</title>
+              <name>Content Library</name>
+              <version>3.0.2</version>
+              <versionDate>2014-07-04</versionDate>
+              <download_url>https://downloads.image-line.com/downloader/ILDownloader.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>13032157</filesize>
+            </item><item>
+              <guid>394</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:17.504617+01</pubDate>
+              <publicid>FLDWNLDR</publicid>
+              <title>Content Library - IL Downloader</title>
+              <name>Content Library</name>
+              <version>3.0.8</version>
+              <versionDate>2014-07-04</versionDate>
+              <download_url>https://downloads.image-line.com/downloader/ildownloader_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>3279360</filesize>
+            </item><item>
+              <guid>444</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:42.954843+01</pubDate>
+              <publicid>39021</publicid>
+              <title>Edison WAV editor (FL/VST/SA) - Free Giveaway</title>
+              <name>Edison</name>
+              <version>2.2.42</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/edison/edison_install.exe</download_url>
+              <changelog_url>http://www.image-line.com/documents/news.php?entry_id=1278583387</changelog_url>
+              <filesize>39135480</filesize>
+            </item><item>
+              <guid>480</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31035</publicid>
+              <title>FL Studio Signature Bundle</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>480</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31035</publicid>
+              <title>FL Studio Signature Bundle</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>482</guid>
+              <os>macosx</os>
+              <pubDate>2014-02-17 17:02:17.395847+01</pubDate>
+              <publicid>83001</publicid>
+              <title>Toxic Biohazard Addon</title>
+              <name>Toxic Biohazard Addon</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>129814</filesize>
+            </item><item>
+              <guid>482</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 17:02:10.527587+01</pubDate>
+              <publicid>83001</publicid>
+              <title>Toxic Biohazard Addon</title>
+              <name>Toxic Biohazard Addon</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>129814</filesize>
+            </item><item>
+              <guid>483</guid>
+              <os>macosx</os>
+              <pubDate>2014-02-17 16:04:17.007567+01</pubDate>
+              <publicid>83002</publicid>
+              <title>Sawer Factory Addition</title>
+              <name>Sawer Factory Addition</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>59008</filesize>
+            </item><item>
+              <guid>483</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 17:00:10.923985+01</pubDate>
+              <publicid>83002</publicid>
+              <title>Sawer Factory Addition</title>
+              <name>Sawer Factory Addition</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>59008</filesize>
+            </item><item>
+              <guid>484</guid>
+              <os>macosx</os>
+              <pubDate>2014-02-17 16:15:21.54818+01</pubDate>
+              <publicid>83003</publicid>
+              <title>PoiZone Controlled Substance</title>
+              <name>Poizone Controlled Substance</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>484</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 16:15:28.648168+01</pubDate>
+              <publicid>83003</publicid>
+              <title>PoiZone Controlled Substance</title>
+              <name>Poizone Controlled Substance</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>485</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 16:51:36.340416+01</pubDate>
+              <publicid>83004</publicid>
+              <title>Morphine Factory Addition</title>
+              <name>Morphine Factory Addition</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>68843595</filesize>
+            </item><item>
+              <guid>533</guid>
+              <os>macosx</os>
+              <pubDate>2014-02-17 16:30:47.609142+01</pubDate>
+              <publicid>83005</publicid>
+              <title>The L.Bergman Electro Soundset</title>
+              <name>The L.Bergman Electro Soundset</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>533</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 16:30:45.136522+01</pubDate>
+              <publicid>83005</publicid>
+              <title>The L.Bergman Electro Soundset</title>
+              <name>The L.Bergman Electro Soundset</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>534</guid>
+              <os>macosx</os>
+              <pubDate>2014-02-17 16:30:52.825038+01</pubDate>
+              <publicid>83006</publicid>
+              <title>Daniel Stawczyks Soundset</title>
+              <name>Daniel Stawczyks Soundset</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>534</guid>
+              <os>windows</os>
+              <pubDate>2014-02-17 16:30:50.254716+01</pubDate>
+              <publicid>83006</publicid>
+              <title>Daniel Stawczyks Soundset</title>
+              <name>Daniel Stawczyks Soundset</name>
+              <version>1.0</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url></download_url>
+              <changelog_url></changelog_url>
+              <filesize>96256</filesize>
+            </item><item>
+              <guid>537</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 15:47:23.082371+01</pubDate>
+              <publicid>71042</publicid>
+              <title>Digital DJ (Magix)</title>
+              <name>Digital DJ</name>
+              <version>1.7</version>
+              <versionDate>2010-06-28</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/DigitalDJ_OSX.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize></filesize>
+            </item><item>
+              <guid>537</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:23.644869+01</pubDate>
+              <publicid>71042</publicid>
+              <title>Digital DJ (Magix)</title>
+              <name>Digital DJ</name>
+              <version>1.7</version>
+              <versionDate>2010-06-10</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/digitaldj_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize></filesize>
+            </item><item>
+              <guid>542</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:23.644869+01</pubDate>
+              <publicid>71114</publicid>
+              <title>Deckadance v2 (coming from Digital DJ)</title>
+              <name>Digital DJ</name>
+              <version>1.7</version>
+              <versionDate>2010-06-10</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/digitaldj_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize></filesize>
+            </item><item>
+              <guid>543</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:23.644869+01</pubDate>
+              <publicid>71003</publicid>
+              <title>Deckadance v2 DVS Edition (coming from Digital DJ)</title>
+              <name>Digital DJ</name>
+              <version>1.7</version>
+              <versionDate>2010-06-10</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/digitaldj_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize></filesize>
+            </item><item>
+              <guid>556</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:12.357191+01</pubDate>
+              <publicid>39100</publicid>
+              <title>Newtone (FL Studio Only)</title>
+              <name>NewTone</name>
+              <version>11.0.4</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/flstudio/flstudio_11.0.4.exe</download_url>
+              <changelog_url>http://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>314810096</filesize>
+            </item><item>
+              <guid>557</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:13.911804+01</pubDate>
+              <publicid>39110</publicid>
+              <title>Pitcher (FL Studio Only)</title>
+              <name>Pitcher</name>
+              <version>11.0.4</version>
+              <versionDate>2014-02-17</versionDate>
+              <download_url>https://downloads.image-line.com/flstudio/flstudio_11.0.4.exe</download_url>
+              <changelog_url>http://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>314810096</filesize>
+            </item><item>
+              <guid>587</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:29:30.632705+01</pubDate>
+              <publicid>38010</publicid>
+              <title>Groove Machine (AU/VST/SA)</title>
+              <name>Groove Machine</name>
+              <version>1.0.2</version>
+              <versionDate>2014-02-14</versionDate>
+              <download_url>https://downloads.image-line.com/groovemachine/groovemachine.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>34304804</filesize>
+            </item><item>
+              <guid>587</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:26.058487+01</pubDate>
+              <publicid>38010</publicid>
+              <title>Groove Machine (AU/VST/SA)</title>
+              <name>Groove Machine</name>
+              <version>1.0.2</version>
+              <versionDate>2014-02-18</versionDate>
+              <download_url>https://downloads.image-line.com/groovemachine/groovemachine_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>31336884</filesize>
+            </item><item>
+              <guid>607</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31020ALL</publicid>
+              <title>FL Studio + ALL Plugins Bundle</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>607</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31020ALL</publicid>
+              <title>FL Studio + ALL Plugins Bundle</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>645</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 15:47:24.787472+01</pubDate>
+              <publicid>72010</publicid>
+              <title>Deckadance v2</title>
+              <name>Deckadance v2</name>
+              <version>2.43</version>
+              <versionDate>2015-03-10</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/deckadance_2.43.dmg</download_url>
+              <changelog_url>http://www.image-line.com/deckadance/history.php</changelog_url>
+              <filesize>119371039</filesize>
+            </item><item>
+              <guid>645</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 15:47:24.212119+01</pubDate>
+              <publicid>72010</publicid>
+              <title>Deckadance v2</title>
+              <name>Deckadance v2</name>
+              <version>2.43</version>
+              <versionDate>2015-03-10</versionDate>
+              <download_url>https://downloads.image-line.com/deckadance/deckadance_2.43.exe</download_url>
+              <changelog_url>http://www.image-line.com/deckadance/history.php</changelog_url>
+              <filesize>79460576</filesize>
+            </item><item>
+              <guid>650</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 17:23:05.831212+01</pubDate>
+              <publicid>31856</publicid>
+              <title>FL Studio Fruity Edition v11.x (Box)</title>
+              <name>FL Studio 11 Boxed</name>
+              <version>11.1.1</version>
+              <versionDate>2015-06-15</versionDate>
+              <download_url>/flstudio/archive_flstudio_11/flstudio_11.1.1.exe</download_url>
+              <changelog_url>http://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>370000160</filesize>
+            </item><item>
+              <guid>710</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31020RZR</publicid>
+              <title>FL Studio Producer Edition (Razer)</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>710</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31020RZR</publicid>
+              <title>FL Studio Producer Edition (Razer)</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>741</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31005</publicid>
+              <title>FL Studio Fruity Fire Edition</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>741</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31005</publicid>
+              <title>FL Studio Fruity Fire Edition</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>742</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 16:32:14.391434+01</pubDate>
+              <publicid>JP-31878</publicid>
+              <title>FL Studio Signature Bundle v20+ (Japanese Box)</title>
+              <name></name>
+              <version>20.0.3.35</version>
+              <versionDate>2018-08-01</versionDate>
+              <download_url>/flstudio/archive_flstudio_20/flstudio_mac_japan_20.0.3.35.dmg</download_url>
+              <changelog_url>https://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>703153239</filesize>
+            </item><item>
+              <guid>742</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:31:42.754694+01</pubDate>
+              <publicid>JP-31878</publicid>
+              <title>FL Studio Signature Bundle v20+ (Japanese Box)</title>
+              <name></name>
+              <version>20.0.3.560</version>
+              <versionDate>2018-08-01</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win_japan_20.0.3.560.exe</download_url>
+              <changelog_url>https://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>695816032</filesize>
+            </item><item>
+              <guid>743</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 16:32:14.391434+01</pubDate>
+              <publicid>JP-31876</publicid>
+              <title>FL Studio Fruity Edition v20+ (Japanese Box)</title>
+              <name></name>
+              <version>20.0.3.35</version>
+              <versionDate>2018-08-01</versionDate>
+              <download_url>/flstudio/archive_flstudio_20/flstudio_mac_japan_20.0.3.35.dmg</download_url>
+              <changelog_url>https://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>703153239</filesize>
+            </item><item>
+              <guid>743</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:31:42.754694+01</pubDate>
+              <publicid>JP-31876</publicid>
+              <title>FL Studio Fruity Edition v20+ (Japanese Box)</title>
+              <name></name>
+              <version>20.0.3.560</version>
+              <versionDate>2018-08-01</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win_japan_20.0.3.560.exe</download_url>
+              <changelog_url>https://www.image-line.com/flstudio/history.php</changelog_url>
+              <filesize>695816032</filesize>
+            </item><item>
+              <guid>765</guid>
+              <os>macosx</os>
+              <pubDate>2025-02-05 10:18:48.609038+01</pubDate>
+              <publicid>31035_EDU</publicid>
+              <title>FL Studio Signature Bundle - Teachers Edition</title>
+              <name></name>
+              <version>24.2.2.4259</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_mac_24.2.2.4259.dmg</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1127594691</filesize>
+            </item><item>
+              <guid>765</guid>
+              <os>windows</os>
+              <pubDate>2025-02-05 10:17:15.604928+01</pubDate>
+              <publicid>31035_EDU</publicid>
+              <title>FL Studio Signature Bundle - Teachers Edition</title>
+              <name></name>
+              <version>24.2.2.4597</version>
+              <versionDate>2025-02-05</versionDate>
+              <download_url>https://demodownload.image-line.com/flstudio/flstudio_win64_24.2.2.4597.exe</download_url>
+              <changelog_url>https://www.image-line.com/history</changelog_url>
+              <filesize>1073452608</filesize>
+            </item><item>
+              <guid>819</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:48.243948+01</pubDate>
+              <publicid>37095VSTi</publicid>
+              <title>Drumaxx (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.3.5b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Drumaxx_1.3.5b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>15045643</filesize>
+            </item><item>
+              <guid>819</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:56.858391+01</pubDate>
+              <publicid>37095VSTi</publicid>
+              <title>Drumaxx (FL/AU/VST/SA)</title>
+              <name>Drumaxx</name>
+              <version>1.3.5</version>
+              <versionDate>2015-11-18</versionDate>
+              <download_url>https://downloads.image-line.com/drumaxx/drumaxx_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>47029736</filesize>
+            </item><item>
+              <guid>820</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:50.839563+01</pubDate>
+              <publicid>39030VSTi</publicid>
+              <title>Maximus (FL/VST)</title>
+              <name>Maximus</name>
+              <version>1.0.40</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/maximus/maximus_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>35875040</filesize>
+            </item><item>
+              <guid>821</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:32.10253+01</pubDate>
+              <publicid>37090VSTi</publicid>
+              <title>Sakura (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.1.5b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Sakura_1.1.5b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>11437311</filesize>
+            </item><item>
+              <guid>821</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:06.685437+01</pubDate>
+              <publicid>37090VSTi</publicid>
+              <title>Sakura (FL/AU/VST/SA)</title>
+              <name>Sakura</name>
+              <version>1.1.5</version>
+              <versionDate>2015-11-18</versionDate>
+              <download_url>https://downloads.image-line.com/sakura/sakura_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>46798824</filesize>
+            </item><item>
+              <guid>822</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:29.095005+01</pubDate>
+              <publicid>37085VSTi</publicid>
+              <title>Sawer (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.2.5b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Sawer_1.2.5b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>13199944</filesize>
+            </item><item>
+              <guid>822</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:27:55.546721+01</pubDate>
+              <publicid>37085VSTi</publicid>
+              <title>Sawer (FL/AU/VST/SA)</title>
+              <name>Sawer</name>
+              <version>1.2.5</version>
+              <versionDate>2015-11-18</versionDate>
+              <download_url>https://downloads.image-line.com/sawer/sawer_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>47299840</filesize>
+            </item><item>
+              <guid>823</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:42.281827+01</pubDate>
+              <publicid>37080VSTi</publicid>
+              <title>Morphine (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.6.6b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Morphine_1.6.6b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>60311157</filesize>
+            </item><item>
+              <guid>823</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:37.141303+01</pubDate>
+              <publicid>37080VSTi</publicid>
+              <title>Morphine (FL/AU/VST/SA)</title>
+              <name>Morphine</name>
+              <version>1.6.6</version>
+              <versionDate>2015-11-18</versionDate>
+              <download_url>https://downloads.image-line.com/morphine/morphine_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>98475664</filesize>
+            </item><item>
+              <guid>824</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:20.737526+01</pubDate>
+              <publicid>37070VSTi</publicid>
+              <title>Toxic Biohazard (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.2.4.2</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Toxic Biohazard_1.2.4.2.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>15750037</filesize>
+            </item><item>
+              <guid>824</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:25:45.472901+01</pubDate>
+              <publicid>37070VSTi</publicid>
+              <title>Toxic Biohazard (FL/AU/VST/SA)</title>
+              <name>Toxic Biohazard</name>
+              <version>1.2.5</version>
+              <versionDate>2016-03-30</versionDate>
+              <download_url>https://downloads.image-line.com/toxic/toxicbiohazard_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>48185272</filesize>
+            </item><item>
+              <guid>825</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:35.19937+01</pubDate>
+              <publicid>37075VSTi</publicid>
+              <title>PoiZone (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>2.4.5b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/PoiZone_2.4.5b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>13820516</filesize>
+            </item><item>
+              <guid>825</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:16.163082+01</pubDate>
+              <publicid>37075VSTi</publicid>
+              <title>PoiZone (FL/AU/VST/SA)</title>
+              <name>PoiZone</name>
+              <version>2.4.5</version>
+              <versionDate>2015-11-18</versionDate>
+              <download_url>https://downloads.image-line.com/poizone/poizone_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>47307656</filesize>
+            </item><item>
+              <guid>826</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:30:26.022553+01</pubDate>
+              <publicid>37040VSTi</publicid>
+              <title>Sytrus (FL/VST)</title>
+              <name></name>
+              <version>2.6.93.33</version>
+              <versionDate>2019-03-20</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/sytrus_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>42038544</filesize>
+            </item><item>
+              <guid>827</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:30:11.61576+01</pubDate>
+              <publicid>37060VSTi</publicid>
+              <title>DirectWave (FL/VST)</title>
+              <name>DirectWave</name>
+              <version>1.6.3.0</version>
+              <versionDate>2014-05-15</versionDate>
+              <download_url>https://downloads.image-line.com/directwave/directwavevst_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>43149304</filesize>
+            </item><item>
+              <guid>828</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:28:26.239664+01</pubDate>
+              <publicid>39050VSTi</publicid>
+              <title>Ogun (FL/VST)</title>
+              <name>Ogun</name>
+              <version>1.1.66</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/ogun/ogun_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>37204816</filesize>
+            </item><item>
+              <guid>829</guid>
+              <os>macosx</os>
+              <pubDate>2023-11-27 14:30:45.086089+01</pubDate>
+              <publicid>39060VSTi</publicid>
+              <title>Hardcore (FL/AU/VST/SA)</title>
+              <name></name>
+              <version>1.1.3b</version>
+              <versionDate>2019-10-04</versionDate>
+              <download_url>https://demodownload.image-line.com/plugins/Hardcore_1.1.3b.dmg</download_url>
+              <changelog_url></changelog_url>
+              <filesize>10410731</filesize>
+            </item><item>
+              <guid>829</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:15.353856+01</pubDate>
+              <publicid>39060VSTi</publicid>
+              <title>Hardcore (FL/AU/VST/SA)</title>
+              <name>Hardcore</name>
+              <version>1.1.5</version>
+              <versionDate>2015-11-06</versionDate>
+              <download_url>https://downloads.image-line.com/hardcore/hardcore_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>27868608</filesize>
+            </item><item>
+              <guid>830</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:21.585925+01</pubDate>
+              <publicid>39070VSTi</publicid>
+              <title>Gross Beat (FL/VST)</title>
+              <name>Gross Beat</name>
+              <version>1.0.38</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/grossbeat/grossbeat_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>35753344</filesize>
+            </item><item>
+              <guid>831</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:10.465446+01</pubDate>
+              <publicid>39090VSTi</publicid>
+              <title>Harmless (FL/VST)</title>
+              <name>Harmless</name>
+              <version>1.0.47</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/harmless/harmless_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>36075432</filesize>
+            </item><item>
+              <guid>832</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:03.650151+01</pubDate>
+              <publicid>39120VSTi</publicid>
+              <title>Harmor (FL/VST/SA)</title>
+              <name>Harmor</name>
+              <version>1.3.39</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/harmor/harmor_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>47447752</filesize>
+            </item><item>
+              <guid>833</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:29:42.954843+01</pubDate>
+              <publicid>39020VSTi</publicid>
+              <title>Edison WAV editor (FL/VST/SA)</title>
+              <name>Edison</name>
+              <version>2.2.42</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/edison/edison_install.exe</download_url>
+              <changelog_url>http://www.image-line.com/documents/news.php?entry_id=1278583387</changelog_url>
+              <filesize>39135480</filesize>
+            </item><item>
+              <guid>834</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:27:46.610367+01</pubDate>
+              <publicid>39040VSTi</publicid>
+              <title>Slicex (FL/VST/SA)</title>
+              <name>Slicex</name>
+              <version>1.0.40</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/slicex/slicex_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>37931296</filesize>
+            </item><item>
+              <guid>835</guid>
+              <os>windows</os>
+              <pubDate>2023-11-27 14:25:38.857144+01</pubDate>
+              <publicid>39080VSTi</publicid>
+              <title>Vocodex (FL/VST)</title>
+              <name>Vocodex</name>
+              <version>1.0.33</version>
+              <versionDate>2017-04-21</versionDate>
+              <download_url>https://downloads.image-line.com/vocodex/vocodex_install.exe</download_url>
+              <changelog_url></changelog_url>
+              <filesize>38709344</filesize>
+            </item></ilversioninfo>

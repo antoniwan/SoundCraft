@@ -1,0 +1,148 @@
+"""
+[[
+	Surface:	MiniLab3
+	Developer:	Farès MEZDOUR
+	Version:	1.0.2
+
+    Copyright (c) 2022 Farès MEZDOUR
+]]
+"""
+
+import device
+import ui
+import time
+import transport
+import mixer
+import channels
+import plugins
+
+import MiniLab3Plugin
+from MiniLab3Dispatch import send_to_device 
+
+
+
+# This class handles visual feedback functions.
+
+
+WidMixer = 0
+WidChannelRack = 1
+WidPlaylist = 2
+WidBrowser = 4
+WidPlugin = 5
+
+
+# MAPS
+
+PAD_MAP = [
+        0x04, 0x05, 0x06, 0x07,
+        0x08, 0x09, 0x0A, 0x0B]
+
+        
+COLOR_MAP = [
+        [0x00, 0x7F, 0x10],
+        [0x00, 0x7F, 0x19],
+        [0x00, 0x7F, 0x32],
+        [0x00, 0x7F, 0x4B],
+        [0x00, 0x7F, 0x64],
+        [0x00, 0x7F, 0x7F],
+        [0x00, 0x64, 0x7F],
+        [0x00, 0x4B, 0x7F],
+        [0x00, 0x32, 0x7F],
+        [0x00, 0x19, 0x7F],
+        [0x00, 0x00, 0x7F],
+        [0x19, 0x00, 0x7F],
+        [0x32, 0x00, 0x7F],
+        [0x4B, 0x00, 0x7F],
+        [0x64, 0x00, 0x7F],
+        [0x7F, 0x00, 0x7F],
+        [0x7F, 0x00, 0x64],
+        [0x7F, 0x00, 0x4B],
+        [0x7F, 0x00, 0x32],
+        [0x7F, 0x00, 0x19],
+        [0x7F, 0x00, 0x00],
+        [0x7F, 0x19, 0x00],
+        [0x7F, 0x32, 0x00],
+        [0x7F, 0x4B, 0x00],
+        ]
+
+class MiniLabLightReturn:
+
+    def init(self) :       
+        
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x58, 0x14, 0x14, 0x14])) # STOP LED init
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x5B, 0x14, 0x14, 0x14])) # TAP LED init
+    
+        
+
+
+    def MetronomeReturn(self) :
+        if ui.isMetronomeEnabled() :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x54, 0x7F, 0x7F, 0x00]))
+        else :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x54, 0x14, 0x14, 0x00]))
+            
+    def LoopReturn(self) :
+        if ui.isLoopRecEnabled() :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x57, 0x7F, 0x32, 0x00]))
+        else :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x57, 0x14, 0x05, 0x00]))
+
+
+    def RecordReturn(self) :
+        if transport.isRecording() :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x5A, 0x7F, 0x00, 0x00]))
+        else :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x5A, 0x14, 0x00, 0x00]))
+
+
+
+    def PlayReturn(self) :
+        if mixer.getSongTickPos() != 0 :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x59, 0x00, 0x7F, 0x00]))
+        else :
+            send_to_device(bytes([0x02, 0x02, 0x16, 0x59, 0x00, 0x14, 0x00]))
+
+            
+
+    def ProcessPlayBlink(self, value):
+        COLOR_PLAY_ON = bytes([0x02, 0x02, 0x16, 0x59, 0x00, 0x7F, 0x00]) 
+        COLOR_PLAY_OFF =  bytes([0x02, 0x02, 0x16, 0x59, 0x00, 0x14, 0x00]) 
+        if value == 0 :
+            send_to_device(COLOR_PLAY_OFF)
+        else :
+            send_to_device(COLOR_PLAY_ON)
+        
+    def ProcessRecordBlink(self, value) :
+        if transport.isRecording() :            
+            COLOR_RECORDING_ON = bytes([0x02, 0x02, 0x16, 0x5A, 0x7F, 0x00, 0x00]) 
+            COLOR_RECORDING_OFF = bytes([0x02, 0x02, 0x16, 0x5A, 0x14, 0x00, 0x00]) 
+            if value == 0 :
+                send_to_device(COLOR_RECORDING_OFF)
+            else :
+                send_to_device(COLOR_RECORDING_ON)
+                
+    
+    def PluginParamReturn(self):
+        if channels.selectedChannel(1) != -1 :
+            if plugins.isValid(channels.selectedChannel()) : 
+                if plugins.getPluginName(channels.selectedChannel()) in MiniLab3Plugin.NATIVE_PLUGIN_LIST : #Check if possible on ALL plugin and not only native ones
+                    #print("Reresh parameter")
+                    parameter, value, mapped = MiniLab3Plugin.Plugin(0, 0, 0)
+    
+    
+    def LEDTest(self) :
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x04, 0x00, 0x00, 0x7f]))
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x05, 0x00, 0x00, 0x00]))
+        time.sleep(0.1)
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x04, 0x00, 0x00, 0x00]))
+        send_to_device(bytes([0x02, 0x02, 0x16, 0x05, 0x00, 0x00, 0x7f]))
+        time.sleep(0.1)
+
+    
+        
+    
+
+         
+           
+
+ 
