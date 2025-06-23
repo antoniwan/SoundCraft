@@ -1,6 +1,6 @@
 from script.constants import HighlightDuration, Pots
 from script.device_independent.util_view.view import View
-from script.fl_constants import FlConstants
+from script.fl_utils import FlUtils
 
 
 class MixerBankHighlightView(View):
@@ -9,6 +9,7 @@ class MixerBankHighlightView(View):
     def __init__(self, action_dispatcher, fl, model):
         super().__init__(action_dispatcher)
         self.fl = fl
+        self.fl_utils = FlUtils(fl)
         self.model = model
 
     def _on_show(self):
@@ -35,16 +36,9 @@ class MixerBankHighlightView(View):
     def handle_MixerBankChangeAttemptedAction(self, action):
         self._highlight_mixer_bank_channels(duration_ms=self.highlight_duration_ms)
 
-    def _get_tracks_for_dock_side(self, dock_side):
-        return [
-            track
-            for track in range(self.model.last_mixer_track_index + 1)
-            if self.fl.get_dock_side_for_track(track) is dock_side and track != FlConstants.CurrentTrackIndex.value
-        ]
-
     def _get_dock_and_relative_index_in_dock(self, track):
         dock_side = self.fl.get_dock_side_for_track(track)
-        tracks = self._get_tracks_for_dock_side(dock_side)
+        tracks = self.fl_utils.get_mixer_tracks_for_dock_side(dock_side)
         return dock_side, tracks.index(track)
 
     def _highlight_mixer_bank_channels(self, *, duration_ms=HighlightDuration.WithoutEnd.value):

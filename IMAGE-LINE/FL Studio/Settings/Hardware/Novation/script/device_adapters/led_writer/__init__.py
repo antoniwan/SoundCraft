@@ -26,6 +26,7 @@ def make_led_writer(device_id, sender, product_defs):
         or device_id == DeviceId.Launchkey88
         or device_id == DeviceId.LaunchkeyMiniMk4
         or device_id == DeviceId.LaunchkeyMk4
+        or device_id == DeviceId.LaunchControlXlMk3
     ):
         return KeyboardControllerLedWriter(sender, product_defs)
     return EmptyLedWriter(sender, product_defs)

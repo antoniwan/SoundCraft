@@ -1,4 +1,7 @@
 from .keyboard_controller_common_button_action_generator import KeyboardControllerCommonButtonActionGenerator
+from .keyboard_controller_common_device_layout_action_generator import (
+    KeyboardControllerCommonDeviceLayoutActionGenerator,
+)
 from .keyboard_controller_common_encoder_action_generator import KeyboardControllerCommonEncoderActionGenerator
 from .keyboard_controller_common_encoder_layout_action_generator import (
     KeyboardControllerCommonEncoderLayoutActionGenerator,
@@ -13,6 +16,7 @@ from .keyboard_controller_common_scale_action_generator import KeyboardControlle
 
 __all__ = [
     "KeyboardControllerCommonButtonActionGenerator",
+    "KeyboardControllerCommonDeviceLayoutActionGenerator",
     "KeyboardControllerCommonEncoderActionGenerator",
     "KeyboardControllerCommonEncoderLayoutActionGenerator",
     "KeyboardControllerCommonPadActionGenerator",

@@ -2,6 +2,7 @@ from script.actions import MixerTrackSelectedAction
 from script.constants import ScrollingSpeed
 from script.device_independent.util_view import SingleButtonView, View
 from script.fl_constants import DockSide, FlConstants
+from script.fl_utils import FlUtils
 from util.scroller import Scroller
 
 
@@ -10,6 +11,7 @@ class MixerTrackSelectView(View):
         super().__init__(action_dispatcher)
         self.product_defs = product_defs
         self.fl = fl
+        self.fl_utils = FlUtils(fl)
         self.model = model
 
         self.select_previous_track_button = SingleButtonView(
@@ -67,13 +69,6 @@ class MixerTrackSelectView(View):
         else:
             self._select_previous_mixer_track()
 
-    def _get_tracks_for_dock_side(self, dock_side):
-        return [
-            track
-            for track in range(self.model.last_mixer_track_index + 1)
-            if self.fl.get_dock_side_for_track(track) is dock_side and track != FlConstants.CurrentTrackIndex.value
-        ]
-
     def _get_previous_and_next_mixer_track(self, current_mixer_track_index):
         all_tracks = self._get_all_tracks_in_displayed_order()
 
@@ -91,9 +86,9 @@ class MixerTrackSelectView(View):
         return all_tracks[previous_index_in_list], all_tracks[next_index_in_list]
 
     def _get_all_tracks_in_displayed_order(self):
-        tracks_for_left_dock = self._get_tracks_for_dock_side(DockSide.Left.value)
-        tracks_for_center_dock = self._get_tracks_for_dock_side(DockSide.Center.value)
-        tracks_for_right_dock = self._get_tracks_for_dock_side(DockSide.Right.value)
+        tracks_for_left_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Left.value)
+        tracks_for_center_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Center.value)
+        tracks_for_right_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Right.value)
         return tracks_for_left_dock + tracks_for_center_dock + tracks_for_right_dock
 
     def _select_previous_mixer_track(self):

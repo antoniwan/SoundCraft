@@ -1,14 +1,16 @@
 import util.math_helpers
 from script.actions import ChannelPanChangedAction
+from script.colours import Colours
 from script.constants import ChannelNavigationMode, ChannelNavigationSteps, ControlChangeType, Pots
 from script.device_independent.util_view.view import View
+from script.fl_constants import RefreshFlags
 from util.deadzone import Deadzone
 
 
 class ChannelRackPanView(View):
     channels_per_bank = Pots.Num.value
 
-    def __init__(self, action_dispatcher, fl, model, *, control_to_index):
+    def __init__(self, action_dispatcher, fl, model, product_defs=None, led_writer=None, *, control_to_index):
         super().__init__(action_dispatcher)
         self.fl = fl
         self.model = model
@@ -16,12 +18,20 @@ class ChannelRackPanView(View):
         self.control_to_index = control_to_index
         self.deadzone = Deadzone(maximum=1.0, centre=0.5, width=0.1)
         self.reset_pickup_on_first_movement = False
+        self.product_defs = product_defs
+        self.led_writer = led_writer
 
     def _on_show(self):
         self.reset_pickup_on_first_movement = True
+        self._update_leds()
+
+    def handle_OnRefreshAction(self, action):
+        if action.flags & RefreshFlags.PluginValue.value:
+            self._update_leds()
 
     def handle_ChannelBankChangedAction(self, action):
         self.reset_pickup_on_first_movement = True
+        self._update_leds()
 
     def handle_ChannelSelectAction(self, action):
         if self.model.channel_rack.navigation_mode == ChannelNavigationMode.Single.value:
@@ -66,3 +76,17 @@ class ChannelRackPanView(View):
             if channel >= self.fl.channel_count():
                 break
             self.fl.reset_channel_pan_pickup(channel)
+
+    def _update_leds(self):
+        if self.led_writer is None or self.product_defs is None:
+            return
+
+        encoder_first_index = self.product_defs.Constants.PanControlFirstIndex.value
+        encoder_cc_offset = encoder_first_index + self.product_defs.Constants.EncoderCcOffset.value
+        channel_offset = self.model.channel_rack.active_bank * ChannelNavigationSteps.Bank.value
+        channel_count = self.fl.channel_count()
+        for index in range(self.channels_per_bank):
+            channel = channel_offset + index
+            encoder = self.control_to_index.get(index + encoder_first_index) + encoder_cc_offset
+            colour = Colours.channel_rack_pan if channel < channel_count else Colours.off
+            self.led_writer.set_pad_colour(encoder, colour, target=self.product_defs.Constants.LightingTargetCC.value)

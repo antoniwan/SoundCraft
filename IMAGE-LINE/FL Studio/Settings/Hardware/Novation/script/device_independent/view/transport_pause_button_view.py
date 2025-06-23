@@ -5,12 +5,12 @@ from script.device_independent.util_view import SingleButtonView, View
 
 
 class TransportPauseButtonView(View):
-    def __init__(self, action_dispatcher, button_led_writer, fl, product_defs):
+    def __init__(self, action_dispatcher, button_led_writer, fl, product_defs, available_colour=Colours.off):
         super().__init__(action_dispatcher)
         self.fl = fl
         self.product_defs = product_defs
         self.button_view = SingleButtonView(
-            button_led_writer, product_defs, "TransportPause", available_colour=Colours.off
+            button_led_writer, product_defs, "TransportPause", available_colour=available_colour
         )
 
     def _on_show(self):

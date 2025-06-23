@@ -21,6 +21,6 @@ def make_screen_writer(device_id, sender, product_defs):
         return ScreenWriterWrapper(KeyboardControllerScreenWriter(sender, product_defs))
     if device_id in [DeviceId.Launchkey, DeviceId.Launchkey88]:
         return ScreenWriterWrapper(KeyboardControllerScreenWriter(sender, product_defs))
-    if device_id in [DeviceId.LaunchkeyMk4, DeviceId.LaunchkeyMiniMk4]:
+    if device_id in [DeviceId.LaunchkeyMk4, DeviceId.LaunchkeyMiniMk4, DeviceId.LaunchControlXlMk3]:
         return LaunchkeyMk4RangeScreenWriter(sender, product_defs)
     return ScreenWriterWrapper(None)

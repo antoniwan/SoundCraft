@@ -5,7 +5,7 @@
 '%FLStudioFactoryData%\Data\Demo projects\Demo songs\|0',1520005725
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Fruity DX10\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Orchestral\|0',1520005753
-'%FLStudioUserData%\Presets\Envelopes\|0',1520006777
+'%FLStudioUserData%\Presets\Plugin database\Installed\Generators\VST\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Formula Controller\|0',1520005743
 '%FLStudioFactoryData%\Data\Templates\Other\Patch bank\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Instrument\Brass and Winds\|0',1520005749
@@ -32,6 +32,7 @@
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kits\Rock\|0',1520005734
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Love Philter\Gate\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Saif Sameer\Basses\|0',1520005749
+'%ILSharedData%Edison\Data\|0',1520612896
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Bass\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Blur\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Packs\SFX\|0',1520005743
@@ -50,9 +51,10 @@
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Laurie Webb - Pure Alkaline (FL Demo Edit)\|0',1520005729
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Free Filter\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Real Spaces\|0',1520005743
+'%ILSharedData%Fruity WaveShaper\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Scores\Arpeggiator\3 notes\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\VST\|0',1520005755
-'%FLStudioUserData%\Projects\Chaos 1\|0',1520024043
+'%FLStudioUserData%\Projects\Chaos 1\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\LuxeVerb\Room\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Rock Loops\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\SFX\|0',1520005747
@@ -60,12 +62,13 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Envelope\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\ReWired\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Chords\Main\|0',1520005755
-'%ILSharedData%FLEX\Packs\|0',1520006785
+'%ILSharedData%FLEX\Packs\|0',1521966187
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Reverb Devices\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Packs\FLEX\Packs\|0',1520005738
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Wasp XT\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Olbaid\SFX\|0',1520005754
+'%FLStudioDownloadsData%\FL CLOUD Sounds\edm-reggaeton\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Jazz Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\Guitar\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Scores\Arpeggiator\|0',1520005755
@@ -110,6 +113,8 @@
 '%FLStudioFactoryData%\Data\Templates\Utility\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\LuxeVerb\Hall\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Bombs Away ft KARRA - Awake\|0',1520005729
+'%ILSharedData%FPC\Data\Envelopes\|0',1521966311
+'%ILSharedData%Fruity WaveShaper\Data\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\FX\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Love Philter\Sequence\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Seamless - Bass Antics\|0',1520005730
@@ -119,17 +124,19 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Arpeggios\Thirteenth\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Scores\Quantization\Humanizing presets\Levels\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\|0',1520005736
+'%ILSharedData%Soundgoodizer\Data\Samples\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\Leads\|0',1520005750
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Olbaid\Lead\|0',1520005754
-'%ILSharedData%|0',1520006785
+'%ILSharedData%|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Maximus\Fancy\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\SimSynth\|0',1520005753
-'%FLStudioDownloadsData%\Languages\24.2.1\|0',1520006779
-'%FLStudioDownloadsData%\Languages\|0',1520006779
+'%FLStudioDownloadsData%\Languages\24.2.1\|0',1520544771
+'%FLStudioDownloadsData%\Languages\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kits\Groove Bias\|0',1520005732
 '%FLStudioFactoryData%\Data\Demo projects\Visual\ZGameEditor Visualizer\|0',1520005725
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Leads\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity NoteBook\|0',1520005744
+'%FLStudioUserData%\Presets\Plugin database\Installed\Effects\VST\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Fog Machine\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Key Mapper\Chords\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Corridors\|0',1520005743
@@ -138,8 +145,9 @@
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\Kick Drums\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Compressor\Internal\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Keyboard\|0',1520005748
-'%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Pads\|0',1520005754
+'%ILSharedData%Edison\|0',1520612896
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\3x Osc\|0',1520005745
+'%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Pads\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\PoiZone\Xenos Soundworks\|0',1520005752
 '%FLStudioUserData%\Projects\Templates\|0',1520006776
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Saif Sameer\Arps\|0',1520005749
@@ -152,6 +160,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\X Olbaid\Lead\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Gross Beat\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X WiseLabs\|0',1520005751
+'%FLStudioDownloadsData%\FL CLOUD Sounds\drillchasers-fla\|0',1523271993
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\Seq\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\PoiZone\Factory\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Dashboard\|0',1520005745
@@ -166,15 +175,17 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Others\COLOVE Phone\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Orchestral\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumpad\Tom-Toms\|0',1520005746
-'%FLStudioDownloadsData%\FL CLOUD Sounds\delusion-trap-melodies-bvk\|0',1520023955
+'%FLStudioDownloadsData%\FL CLOUD Sounds\delusion-trap-melodies-bvk\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Percussion\|0',1520005734
 '%FLStudioFactoryData%\Data\Patches\Scores\Arpeggiator\1 note\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Exteriors\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Leads\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Transient Processor\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Pad\|0',1520005754
+'%FLStudioUserData%\Presets\Plugin database\Installed\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Automation clips\Special\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Atthar Feat Mehran Abbasi & Elise Chantelle - Right Night feeling\|0',1520005729
+'%ILSharedData%Fruity WaveShaper\Data\LFO\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Scores\Quantization\Snap\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Effect tutorials\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumaxx\|0',1520005745
@@ -183,7 +194,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\Keyboards\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Bass\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\Guitar\Electric Guitar 01\|0',1520005741
-'%ILSharedData%Maximus\|0',1520006785
+'%ILSharedData%Maximus\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\svg\Samsung\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Pad\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Wind\|0',1520005754
@@ -198,14 +209,15 @@
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Ephixa - Club Penguin\|0',1520005729
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Sfx\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\Cymbals\|0',1520005740
+'%ILSharedData%Soundgoodizer\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Transistor Bass\|0',1520005755
-'%FLStudioDownloadsData%\FL CLOUD Sounds\rage-2\|0',1520024026
+'%FLStudioDownloadsData%\FL CLOUD Sounds\rage-2\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Key Mapper\Harmony\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Ogun\Pad\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Automation clips\Gates\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\SFX\|0',1520005734
-'%FLStudioUserData%\Projects\Project bones\|0',1520006776
+'%FLStudioDownloadsData%\FL CLOUD Sounds\rage-trap\|0',1523271899
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Claps\|0',1520005735
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\DATA\|0',1520005729
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Square a Saw - Oxygen (Tevlo Vocals Resynthesized)\|0',1520005730
@@ -216,17 +228,19 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\World Loops\Polka\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Olbaid\Bass\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Drum\|0',1520005753
+'%FLStudioUserData%\Projects\Project bones\|0',1520006776
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Packs\Shapes\HQ\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Leads\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Various\|0',1520005728
+'%FLStudioDownloadsData%\FL CLOUD Sounds\lofi-chill\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\Strings\|0',1520005750
-'%FLStudioDownloadsData%\FL CLOUD Sounds\lofi-chill\|0',1520023959
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Olbaid - Deep Inside (Original Mix)\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Ogun\Bell\|0',1520005750
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Chords\Sixth\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Dance\|0',1520005740
+'%FLStudioDownloadsData%\FL CLOUD Sounds\voyage-kik\|0',1523271824
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Parametric EQ\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Stereo Enhancer\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Pop Loops\|0',1520005757
@@ -235,7 +249,7 @@
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Ragasur ft. Neelima Jaiswal - Red Rani\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumpad\Sound FX\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Bell\|0',1520005753
-'%FLStudioDownloadsData%\FL CLOUD Sounds\|0',1520024026
+'%FLStudioDownloadsData%\FL CLOUD Sounds\|0',1523271955
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Complex\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Funk Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\EQUO\|0',1520005743
@@ -243,6 +257,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Flutes\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Ogun\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Gimbal & Sinan + Futorial - RawFL\|0',1520005729
+'%FLStudioDownloadsData%\FL CLOUD Sounds\latin-summer-vol-1\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Square a Saw - Lightning (VEELA Vocals Resynthesized)\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumpad\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Hardcore\Default\|0',1520005744
@@ -257,6 +272,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Strings\|0',1520005742
+'%ILSharedData%DirectWave\Data\|0',1521966312
 '%FLStudioFactoryData%\Data\Templates\Empty\|0',1520005763
 '%FLStudioFactoryData%\Data\Templates\Utility\Record Audio\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Hats\|0',1520005731
@@ -265,13 +281,13 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Old School\|0',1520005745
 '%FLStudioFactoryData%\Data\Templates\Utility\SFX transitions\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Experimental\|0',1520005753
+'%ILSharedData%Autogun\Data\Envelopes\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Maximus\De-essing\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\Bass\FLStudio Bass 02\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Impulses\Reverb Devices\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\FPC\Multi audio output\Electronic\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Sequence\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\svg\Apple Watch\|0',1520005745
-'%FLStudioUserData%\Projects\|0',1520024008
 '%FLStudioFactoryData%\Data\Patches\Packs\Shapes\Misc\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Stereo Shaper\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Impulses\Small Rooms\|0',1520005728
@@ -285,6 +301,7 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Riff machine step 2\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Kits\Drum Kit 07\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Key Mapper\Scales\|0',1520005744
+'%ILSharedData%Soundgoodizer\Data\Maps\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Arpeggios\Main\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\BassDrum\Factory\|0',1520005745
 '%FLStudioFactoryData%\Data\Templates\Performance\|0',1520005763
@@ -292,6 +309,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Olbaid\Pad\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Love Philter\Special\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Vocals\|0',1520005742
+'%FLStudioUserData%\Presets\Plugin database\Installed\Generators\New\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Impulses\Spring Reverb\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Country Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Formula Controller\Special\|0',1520005743
@@ -308,28 +326,33 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\FPC\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Synthetic\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Vector art\|0',1520005745
+'%ILSharedData%Slicex\Data\LFO\|0',1521966313
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kits\HQ Jazz Kit\|0',1520005732
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by remix projects\Housework\|0',1520005731
 '%ILSharedData%Maximus\Data\Maps\|0',1520006785
+'%FLStudioDownloadsData%\FL CLOUD Sounds\lex-luger-trap-therapy-prl\|0',1523271949
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Template\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X SeamlessR\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Saif Sameer\Synths\|0',1520005754
 '%FLStudioFactoryData%\Data\Templates\Power User\Cheese''s recording setup\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Snares\|0',1520005735
+'%ILSharedData%Slicex\Data\Envelopes\|0',1521966313
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\Toms\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Atmosphere\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Lead\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Arpeggios\Sixth\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Pads\|0',1520005752
-'%FLStudioUserData%\Presets\Plugin database\Generators\|0',1520006777
+'%FLStudioUserData%\Presets\Plugin database\Generators\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Piano\Piano 2\|0',1520005742
+'%ILSharedData%Edison\Data\Maps\|0',1520612896
 '%FLStudioFactoryData%\Data\Templates\Minimal\Empty\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Distructor\Filter\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Tutorials and tricks\Resynthesis\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Synth\Seq\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Packs\Shapes\Sytrus\|0',1520005743
-'%ILSharedData%Maximus\Data\|0',1520006785
+'%ILSharedData%Maximus\Data\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\Arps\|0',1520005748
+'%ILSharedData%Edison\Data\Envelopes\|0',1520612896
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\LuxeVerb\Plate\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Loops\|0',1520005742
@@ -338,10 +361,12 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Kit Loops\707 Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by remix projects\|0',1520005731
 '%FLStudioFactoryData%\Data\Patches\Channel presets\BeepMap\|0',1520005728
+'%FLStudioUserData%\Presets\Plugin database\Installed\Effects\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Wave Candy\Function\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Ambient Loops\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Scores\Stamps\Melodic - chords\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Flangus\|0',1520005743
+'%FLStudioUserData%\Presets\Speech\|0',1523272335
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Kits\Drum Kit 01\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Delay Bank\|0',1520005743
 '%FLStudioFactoryData%\Data\Templates\Performance\Touchscreen\|0',1520005763
@@ -351,6 +376,7 @@
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Useful\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity PanOMatic\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumpad\Default\|0',1520005745
+'%ILSharedData%Edison\Data\LFO\|0',1520612896
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Tevlo - Release Me (feat. Veela)\|0',1520005731
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Latin Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\Randomized\|0',1520005747
@@ -358,6 +384,8 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\Compression\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\GMS\Leads & Synths\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Olbaid\|0',1520005754
+'%ILSharedData%Autogun\Data\LFO\|0',1521966312
+'%FLStudioUserData%\Presets\Plugin database\Installed\Effects\New\|0',1523272182
 '%FLStudioFactoryData%\Data\Demo projects\Performance mode\|0',1520005725
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by remix projects\Steptime\|0',1520005731
 '%FLStudioFactoryData%\Data\Patches\Packs\Instruments\Keyboard\|0',1520005739
@@ -367,6 +395,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Percussion\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Compressor\External\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\|0',1520005742
+'%ILSharedData%Autogun\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\FX\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Saif Sameer\Basses\|0',1520005754
@@ -377,33 +406,37 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Synth\Arps\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Prc\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\Pads\|0',1520005749
+'%ILSharedData%Soundgoodizer\Data\LFO\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Equalizer\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\Atmospheres\|0',1520005747
+'%ILSharedData%Fruity WaveShaper\Data\Envelopes\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\One Day (Funky Mix)\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Scores\Arpeggiator\2 notes\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\Other Percussion\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\PoiZone\|0',1520005752
+'%ILSharedData%Slicex\|0',1521966313
 '%FLStudioUserData%\Presets\Envelopes\Envelopes\|0',1520006777
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Delay 2\|0',1520005743
+'%ILSharedData%DirectWave\Data\Envelopes\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\Pads & Atmos\|0',1520005750
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Keys\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Piano\Piano 1\|0',1520005742
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Keyboard\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Olbaid\Lead\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Kicks\|0',1520005751
-'cache',1520006776
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\X StephenM\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\Pad\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\Perc\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Reeverb\Internal\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Fruity Keyboard Controller\|0',1520005747
-'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Pitch Shifter\|0',1520005744
+'%FLStudioDownloadsData%\FL CLOUD Sounds\moombahton-caliente\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Impulses\Underground\|0',1520005729
-'%FLStudioUserData%\Presets\Plugin database\|0',1520006777
+'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Pitch Shifter\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Impulses\FX\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kits\HQ Funk Kit\|0',1520005732
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Key Mapper\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\GMS\Pads & Textures\|0',1520005747
+'%FLStudioUserData%\Presets\Plugin database\Installed\Effects\Fruity\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\GMS\User\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Drum\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sawer\Keys\|0',1520005753
@@ -426,6 +459,7 @@
 '%FLStudioFactoryData%\Data\Templates\Other\Video chopping\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Percussion\|0',1520005736
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\svg\|0',1520005745
+'%FLStudioUserData%\Presets\Plugin database\Installed\Generators\Fruity\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\png\Display\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Percs\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Bass\|0',1520005751
@@ -453,6 +487,7 @@
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\Guitar\Acoustic Guitar 01\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Drum And Bass Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Snares\|0',1520005736
+'%ILSharedData%Slicex\Data\|0',1521966313
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\X Olbaid\Drums\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Ogun\Misc\|0',1520005751
@@ -463,9 +498,9 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Delay 3\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\Synth\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kicks\|0',1520005731
+'%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Dance Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Maximus\Insert\|0',1520005744
-'%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Dance Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Templates\Minimal\Club Basic\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Foley\|0',1520005735
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\|0',1520005749
@@ -480,7 +515,7 @@
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\FPC\SideStick_Rims\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Bass\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Percussion\|0',1520005755
-'%FLStudioUserData%\Projects\Chaos 1\Backup\|0',1520024043
+'%FLStudioUserData%\Projects\Chaos 1\Backup\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Packs\Instruments\Guitar\|0',1520005738
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Glitch Loops\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Organ\|0',1520005753
@@ -503,14 +538,15 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Center\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Automation clips\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\BassDrum\|0',1520005745
+'%ILSharedData%FPC\Data\|0',1521966311
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumpad\HiHats\|0',1520005746
-'%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\Synthesizer\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumaxx\Percussion\|0',1520005745
+'%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\Synthesizer\|0',1520005747
 '%FLStudioFactoryData%\Data\Templates\Advanced\|0',1520005763
-'%FLStudioFactoryData%\Data\Templates\Minimal\Basic 808\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Seamless - Antecoder\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\Bass\|0',1520005749
 '%FLStudioFactoryData%\Data\Templates\Minimal\|0',1520005763
+'%FLStudioFactoryData%\Data\Templates\Minimal\Basic 808\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Distructor\Guitar\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Love Philter\Filter\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Channel presets\Plucked!\|0',1520005728
@@ -524,7 +560,7 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Synth string\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Pads\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Spring Reverb\|0',1520005743
-'%FLStudioUserData%\Projects\Backup\|0',1520006776
+'%FLStudioUserData%\Projects\Backup\|0',1523272110
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Chords\Seventh\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sawer\Xenos Soundworks\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Kits\Drum Kit 04\|0',1520005740
@@ -532,16 +568,19 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Tutorials and tricks\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Plucked!\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Impulses\Exteriors\|0',1520005728
+'%ILSharedData%Fruity WaveShaper\Data\Maps\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Seamless - Menagerie\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Fruity Envelope Controller\|0',1520005747
+'%FLStudioUserData%\Projects\Pasion\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\FX\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\Assets\Sacco\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Squeeze\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Guitars\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Plucked\|0',1520005753
-'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\Filter\|0',1520005744
-'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Formula Controller\LFO\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Percussion Loops\Blam''s Hand Percussion Loops\|0',1520005757
+'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Formula Controller\LFO\|0',1520005743
+'%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\Filter\|0',1520005744
+'%ILSharedData%FPC\|0',1521966311
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Kicks\|0',1520005736
 '%FLStudioFactoryData%\Data\Templates\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Parametric EQ 2\|0',1520005744
@@ -550,11 +589,13 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\MIDI Out\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Dance Loops\House\|0',1520005756
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\FL Keys\|0',1520005746
-'%FLStudioDownloadsData%\|0',1520023953
+'%FLStudioDownloadsData%\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Guitar\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Saif Sameer\Keys\|0',1520005749
+'%ILSharedData%Autogun\Data\Maps\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Lead\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Kits\Drum Kit 02\|0',1520005740
+'%ILSharedData%FPC\Data\Maps\|0',1521966311
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Hyper Chorus\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Guitar\Bass\FLStudio Bass 01\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Impulses\Chambers\|0',1520005728
@@ -573,33 +614,40 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Samples\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Sequence\|0',1520005753
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Riff machine step 1\|0',1520005755
+'%ILSharedData%Edison\Data\Samples\|0',1520612896
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\MDK ft Miss Lina - Leap of Faith\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Ogun\Cymbal\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Hi Hats\|0',1520005735
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Convolver\Underground\|0',1520005743
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\ColoveContent\Devices\svg\iPhone-X-HD\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\X Nucleon\Organ\|0',1520005747
+'%ILSharedData%Slicex\Data\Maps\|0',1521966313
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Saif Sameer\Strings\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\GMS\Special Effects\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\Percs\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\FPC\Acoustic\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Melodies\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Phaser\|0',1520005744
+'%ILSharedData%FLEX\Images\|0',1521966187
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Vintage\|0',1520005740
+'%ILSharedData%Soundgoodizer\Data\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Morphine\|0',1520005750
 '%FLStudioFactoryData%\Data\Templates\Other\All MIDI CC\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Scores\Quantization\Humanizing presets\Grooves\|0',1520005757
+'%ILSharedData%Fruity WaveShaper\Data\Samples\|0',1521966314
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Olbaid\Pluck\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\Special\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\SFX\|0',1520005736
+'%ILSharedData%DirectWave\|0',1521966826
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\X Day Hill\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\X WiseLabs\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Fruity Video Player\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Xenos Soundworks Vol1\|0',1520005752
-'%FLStudioDownloadsData%\Languages\24.2\|0',1520006779
+'%FLStudioDownloadsData%\Languages\24.2\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Synthesizer\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Scores\Stamps\Melodic - scales\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sawer\Pads\|0',1520005753
+'%FLStudioUserData%\Projects\Pasion\Backup\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Cymbals\|0',1520005731
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Drums\Kits\Drum Kit 05\|0',1520005740
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\ZGameEditor Visualizer\Wizard\|0',1520005745
@@ -610,9 +658,11 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumaxx\Drum and Bass\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\|0',1520005742
 '%FLStudioFactoryData%\Data\Patches\Packs\Instruments\|0',1520005739
+'%FLStudioDownloadsData%\FL CLOUD Sounds\tropical-reggaeton-drum-kit\|0',1523271930
+'%ILSharedData%FPC\Data\LFO\|0',1521966311
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Toxic Biohazard\Sequences\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Impulses\Corridors\|0',1520005728
-'%ILSharedData%FLEX\|0',1520006785
+'%ILSharedData%FLEX\|0',1521966187
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Keyboard\|0',1520005752
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Vocodex\Special effects\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity Flanger\|0',1520005743
@@ -626,8 +676,9 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\Reference scales\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Instrument\Strings\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\Brass\|0',1520005753
-'%FLStudioUserData%\Presets\Plugin database\Effects\|0',1520006777
+'%ILSharedData%DirectWave\Data\LFO\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\Keys\|0',1520005748
+'%FLStudioUserData%\Presets\Plugin database\Effects\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\X Xenofish\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Packs\Legacy\Instruments\Orchestral\Trombone\|0',1520005741
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Arpeggios\Ninenth\|0',1520005755
@@ -647,9 +698,11 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Vintage Phaser\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\Percussion\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Keyboard Splitter\Velocity\|0',1520005744
+'%ILSharedData%DirectWave\Data\Samples\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Drumaxx\Electro\|0',1520005745
-'%FLStudioDownloadsData%\FL CLOUD Sounds\pop-it-hyperpop\|0',1520023995
+'%FLStudioDownloadsData%\FL CLOUD Sounds\pop-it-hyperpop\|0',1520544771
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Key Mapper\Special\|0',1520005744
+'%ILSharedData%Autogun\Data\|0',1521966312
 '%FLStudioFactoryData%\Data\Templates\Other\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Fruity NoteBook 2\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Synth\|0',1520005754
@@ -672,15 +725,17 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Nucleon\Plucked\|0',1520005754
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Raubana - LIFE\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\Tutorials and tricks\General\|0',1520005748
+'%ILSharedData%DirectWave\Data\Maps\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\X Olbaid\Pluck\|0',1520005748
 '%FLStudioFactoryData%\Data\Patches\Scores\Stamps\Melodic - chords\Advanced\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Wave Candy\|0',1520005745
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Rock Loops\Hard Rock\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Wave Candy\Theme\|0',1520005745
+'%ILSharedData%Autogun\Data\Samples\|0',1521966312
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmless\|0',1520005747
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Default\|0',1520005752
-'%FLStudioFactoryData%\Data\Templates\Performance\8x8\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Synth\Leads\|0',1520005749
+'%FLStudioFactoryData%\Data\Templates\Performance\8x8\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\Rock Loops\Metal\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\VFX Keyboard Splitter\|0',1520005744
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Effects\Patcher\X Youlean\|0',1520005744
@@ -702,9 +757,11 @@
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Instrument\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums\Kits\Thrower\|0',1520005734
 '%FLStudioFactoryData%\Data\Patches\Impulses\Guitar Cabinet\|0',1520005728
+'%ILSharedData%FPC\Data\Samples\|0',1521966311
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\OZIASO - Fausta\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler\Plucks\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sakura\Eastern Dreams Bank\|0',1520005752
+'%ILSharedData%Slicex\Data\Samples\|0',1521966313
 '%FLStudioFactoryData%\Data\Demo projects\|0',1520005725
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\FPC\Multi audio output\Acoustic\|0',1520005746
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Sytrus\X Saif Sameer\Plucks\|0',1520005754
@@ -713,6 +770,7 @@
 '%FLStudioFactoryData%\Data\Templates\Other\Blocks\|0',1520005763
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\Olbaid - Dynamics (Original Mix)\|0',1520005730
 '%FLStudioFactoryData%\Data\Patches\Packs\Drums (ModeAudio)\Toms\|0',1520005737
+'%ILSharedData%Soundgoodizer\Data\Envelopes\|0',1520612971
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Patcher\X Cipryan Bot\SFX\|0',1520005751
 '%FLStudioFactoryData%\Data\Patches\Scores\Automation\Clips\|0',1520005755
 '%FLStudioFactoryData%\Data\Patches\Scores\Chopping\Arpeggios\Scales\|0',1520005755
@@ -732,6 +790,7 @@
 '%FLStudioFactoryData%\Data\Patches\Scores\FPC drumloops\|0',1520005757
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Kepler Exo\X Sako\Synth\Pads\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Misc\Used by demo projects\LollieVox - Optimum Momentum\|0',1520005730
+'%FLStudioUserData%\Presets\Plugin database\Installed\Generators\|0',1523272182
 '%FLStudioFactoryData%\Data\Patches\Channel presets\3x Osc\|0',1520005728
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\MiniSynth\|0',1520005749
 '%FLStudioFactoryData%\Data\Patches\Plugin presets\Generators\Harmor\X Olbaid\Pad\|0',1520005748

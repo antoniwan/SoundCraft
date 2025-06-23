@@ -174,12 +174,17 @@ class FL:
             pass
         return False
 
+    def get_mixer_current_track_special_index(self):
+        return self.mixer_track_count()
+
     def mixer_track_count(self):
-        """
-        Final track is the 'current' track, which is a special analysis track that has no
-        volume or pan controls. We are not interested in this track as we cannot control it.
-        """
-        return mixer.trackCount() - 1
+        try:
+            # + 1 for the master track
+            return mixer.getTrackCount() + 1
+        except AttributeError:
+            # Final track is the 'current' track, which is a special analysis track that has no
+            # volume or pan controls. We are not interested in this track as we cannot control it.
+            return mixer.trackCount() - 1
 
     def get_mixer_track_eq_gain_as_string(self, band):
         track = self.get_selected_mixer_track()
@@ -274,6 +279,9 @@ class FL:
                 return track_index
 
         return None
+
+    def is_mixer_track_selected(self, track_index):
+        return mixer.isTrackSelected(track_index)
 
     def get_channel_volume(self, channel):
         return channels.getChannelVolume(channel)

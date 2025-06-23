@@ -1,6 +1,7 @@
 from script.commands import RequestDisableMixerBankingCommand, RequestEnableMixerBankingCommand
 from script.constants import Faders
 from script.device_independent.view import MixerSoloMuteToggleView, MixerSoloMuteView, MixerVolumeView
+from util.control_to_index import make_control_to_index
 
 
 class MixerVolumeFaderLayoutManager:
@@ -9,10 +10,7 @@ class MixerVolumeFaderLayoutManager:
     ):
         self.fl_window_manager = fl_window_manager
         self.command_dispatcher = command_dispatcher
-        control_to_index = {
-            Faders.FirstControlIndex.value + control: index
-            for index, control in enumerate(range(Faders.NumRegularFaders.value))
-        }
+        control_to_index = make_control_to_index(Faders.FirstControlIndex.value, Faders.NumRegularFaders.value)
         self.views = {
             MixerVolumeView(action_dispatcher, fl, model, control_to_index=control_to_index),
             MixerSoloMuteView(action_dispatcher, model, product_defs, fl, button_led_writer),

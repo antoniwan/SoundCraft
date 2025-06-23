@@ -48,7 +48,6 @@ class Model:
         self.mixer_track_active_bank = None
         self.mixer_tracks_in_active_bank = []
         self.first_mixer_track_index = 1
-        self.last_mixer_track_index = 126
         self.mixer_arm_mute_mode = None
         self.mixer_solo_mute_mode = None
         self.channel_solo_mute_mode = None

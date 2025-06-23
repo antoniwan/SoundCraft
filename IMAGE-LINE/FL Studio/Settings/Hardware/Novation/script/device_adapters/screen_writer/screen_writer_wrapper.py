@@ -42,3 +42,11 @@ class ScreenWriterWrapper:
 
     def display_idle(self, text, fields=None):
         pass
+
+    # This method is used to suspend the manual-trigger bits being set in the screen sysex messages.
+    # Currently its only used as a work-around to prevent manually triggered fader displays.
+    # This work-around is required because of another work-around for a FW bug that causes incorrect display values when faders are moved quickly.
+    # Related tickets: FCT-686, FCT-674, CTRL-292
+    # Once the FW bug is fixed, this method (and calls to it) should be removed.
+    def suspend_trigger(self, suspend):
+        pass

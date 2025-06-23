@@ -7,15 +7,13 @@ from script.device_independent.view import (
     ChannelSoloMuteToggleView,
     ChannelSoloMuteView,
 )
+from util.control_to_index import make_control_to_index
 
 
 class ChannelVolumeFaderLayoutManager:
     def __init__(self, action_dispatcher, fl, product_defs, model, screen_writer, button_led_writer, fl_window_manager):
         self.fl_window_manager = fl_window_manager
-        control_to_index = {
-            Faders.FirstControlIndex.value + control: index
-            for index, control in enumerate(range(Faders.NumRegularFaders.value))
-        }
+        control_to_index = make_control_to_index(Faders.FirstControlIndex.value, Faders.NumRegularFaders.value)
         self.views = {
             ChannelBankControlsHighlightView(action_dispatcher, fl, model),
             ChannelRackVolumeView(action_dispatcher, fl, model, control_to_index=control_to_index),

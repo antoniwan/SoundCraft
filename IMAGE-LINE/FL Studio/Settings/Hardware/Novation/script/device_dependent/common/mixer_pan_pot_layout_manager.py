@@ -1,6 +1,7 @@
 from script.commands import RequestDisableMixerBankingCommand, RequestEnableMixerBankingCommand
 from script.constants import Pots
 from script.device_independent.view import MixerPanScreenView, MixerPanView
+from util.control_to_index import make_control_to_index
 
 
 class MixerPanPotLayoutManager:
@@ -8,9 +9,7 @@ class MixerPanPotLayoutManager:
         self.fl_window_manager = fl_window_manager
         self.command_dispatcher = command_dispatcher
 
-        control_to_index = {
-            Pots.FirstControlIndex.value + control: index for index, control in enumerate(range(Pots.Num.value))
-        }
+        control_to_index = make_control_to_index(Pots.FirstControlIndex.value, Pots.Num.value)
 
         self.views = {
             MixerPanView(action_dispatcher, fl, model, control_to_index=control_to_index),

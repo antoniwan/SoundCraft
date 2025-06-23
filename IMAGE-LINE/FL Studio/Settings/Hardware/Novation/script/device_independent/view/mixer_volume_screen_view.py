@@ -56,7 +56,10 @@ class MixerVolumeScreenView(View):
     def display_volume(self, control, track):
         self.stop_master_volume_notification_update_timer()
 
-        if track == FlConstants.MasterTrackIndex.value:
+        if (
+            track == FlConstants.MasterTrackIndex.value
+            and control == Faders.FirstControlIndex.value + Faders.MasterFaderIndex.value
+        ):
             self.handle_master_track_volume_changed()
         else:
             self.handle_regular_track_volume_changed(track, control)

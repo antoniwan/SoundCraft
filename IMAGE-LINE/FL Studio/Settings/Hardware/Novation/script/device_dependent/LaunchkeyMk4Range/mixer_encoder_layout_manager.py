@@ -18,6 +18,7 @@ from script.device_independent.view import (
     MixerVolumeScreenView,
     MixerVolumeView,
 )
+from util.control_to_index import make_control_to_index
 
 
 class MixerEncoderLayoutManager(PagedLayoutManager):
@@ -35,9 +36,7 @@ class MixerEncoderLayoutManager(PagedLayoutManager):
         self.fl_window_manager = fl_window_manager
         self.device_manager = device_manager
         self.model = model
-        control_to_index = {
-            Encoders.FirstControlIndex.value + control: index for index, control in enumerate(range(Encoders.Num.value))
-        }
+        control_to_index = make_control_to_index(Encoders.FirstControlIndex.value, Encoders.Num.value)
         layouts = [
             PagedLayoutManager.Layout(
                 layout_id=MixerEncoderMode.ChannelRackVolume.value,
@@ -47,7 +46,9 @@ class MixerEncoderLayoutManager(PagedLayoutManager):
                     FLStudioTextView(screen_writer, action_dispatcher),
                     ChannelRackVolumeView(action_dispatcher, fl, model, control_to_index=control_to_index),
                     ChannelRackVolumeScreenView(action_dispatcher, screen_writer, fl),
-                    ChannelRackVolumePreviewView(action_dispatcher, product_defs, model),
+                    ChannelRackVolumePreviewView(
+                        action_dispatcher, product_defs, model, control_to_index=control_to_index
+                    ),
                 ],
             ),
             PagedLayoutManager.Layout(
@@ -58,7 +59,9 @@ class MixerEncoderLayoutManager(PagedLayoutManager):
                     FLStudioTextView(screen_writer, action_dispatcher),
                     ChannelRackPanView(action_dispatcher, fl, model, control_to_index=control_to_index),
                     ChannelRackPanScreenView(action_dispatcher, screen_writer, fl),
-                    ChannelRackPanPreviewView(action_dispatcher, fl, product_defs, model),
+                    ChannelRackPanPreviewView(
+                        action_dispatcher, fl, product_defs, model, control_to_index=control_to_index
+                    ),
                 ],
             ),
             PagedLayoutManager.Layout(
@@ -80,7 +83,7 @@ class MixerEncoderLayoutManager(PagedLayoutManager):
                     FLStudioTextView(screen_writer, action_dispatcher),
                     MixerPanView(action_dispatcher, fl, model, control_to_index=control_to_index),
                     MixerPanScreenView(action_dispatcher, screen_writer, fl),
-                    MixerPanPreviewView(action_dispatcher, fl, product_defs, model),
+                    MixerPanPreviewView(action_dispatcher, fl, product_defs, model, control_to_index=control_to_index),
                 ],
             ),
             PagedLayoutManager.Layout(

@@ -5,7 +5,6 @@ class FlConstants(CustomEnum):
     MaxStepsPerPattern = 512
     FirstPatternIndex = 1
     MasterTrackIndex = 0
-    CurrentTrackIndex = 126
     NumMixerEffectPluginSlots = 10
 
 

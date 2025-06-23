@@ -4,14 +4,13 @@ from script.device_independent.view import (
     ChannelRackVolumeScreenView,
     ChannelRackVolumeView,
 )
+from util.control_to_index import make_control_to_index
 
 
 class ChannelVolumePotLayoutManager:
     def __init__(self, action_dispatcher, fl, screen_writer, model, fl_window_manager):
         self.fl_window_manager = fl_window_manager
-        control_to_index = {
-            Pots.FirstControlIndex.value + control: index for index, control in enumerate(range(Pots.Num.value))
-        }
+        control_to_index = make_control_to_index(Pots.FirstControlIndex.value, Pots.Num.value)
         self.views = {
             ChannelBankControlsHighlightView(action_dispatcher, fl, model),
             ChannelRackVolumeView(action_dispatcher, fl, model, control_to_index=control_to_index),

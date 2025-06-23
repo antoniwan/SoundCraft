@@ -1,4 +1,5 @@
 from script.constants import DeviceId
+from script.device_adapters.device_manager.launchcontrolxl_mk3_device_manager import LaunchControlXlMk3DeviceManager
 from script.device_adapters.device_manager.launchkey_mk4_range_device_manager import LaunchkeyMk4RangeDeviceManager
 
 from .flkeyrange_device_manager import FLKeyRangeDeviceManager
@@ -25,4 +26,6 @@ def make_device_manager(device_id, sender, product_defs):
         return LaunchkeyDeviceManager(sender, product_defs)
     if device_id in [DeviceId.LaunchkeyMk4, DeviceId.LaunchkeyMiniMk4]:
         return LaunchkeyMk4RangeDeviceManager(sender, product_defs)
+    if device_id == DeviceId.LaunchControlXlMk3:
+        return LaunchControlXlMk3DeviceManager(sender, product_defs)
     return None

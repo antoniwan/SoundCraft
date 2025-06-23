@@ -113,6 +113,15 @@ class SurfaceEvent(CustomEnum):
     ButtonPadsPageDown = 0xB0, 0x6B
 
 
+class DisplayAddress(CustomEnum):
+    Permanent = 0x20
+    Overlay = 0x21
+    FirstEncoder = 0x15
+    LastEncoder = 0x1C
+    FirstFader = 0x05
+    LastFader = 0x0C
+
+
 FunctionToButton = {
     "PreviewModifier": Button.Shift,
     "ShiftModifier": Button.Shift,
@@ -191,6 +200,7 @@ class LaunchkeyMk4ProductDefs:
         self.FaderLayout = FaderLayout
         self.EncoderLayout = EncoderLayout
         self.SurfaceEvent = SurfaceEvent
+        self.DisplayAddress = DisplayAddress
         self.FunctionToButton = FunctionToButton
         self.ButtonToLedIndex = ButtonToLedIndex
         self.EncoderIndexToControlIndex = EncoderIndexToControlIndex

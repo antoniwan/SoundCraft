@@ -4,14 +4,13 @@ from script.device_independent.view import (
     ChannelRackPanScreenView,
     ChannelRackPanView,
 )
+from util.control_to_index import make_control_to_index
 
 
 class ChannelPanPotLayoutManager:
     def __init__(self, action_dispatcher, fl, screen_writer, model, fl_window_manager):
         self.fl_window_manager = fl_window_manager
-        control_to_index = {
-            Pots.FirstControlIndex.value + control: index for index, control in enumerate(range(Pots.Num.value))
-        }
+        control_to_index = make_control_to_index(Pots.FirstControlIndex.value, Pots.Num.value)
         self.views = {
             ChannelBankControlsHighlightView(action_dispatcher, fl, model),
             ChannelRackPanScreenView(action_dispatcher, screen_writer, fl),

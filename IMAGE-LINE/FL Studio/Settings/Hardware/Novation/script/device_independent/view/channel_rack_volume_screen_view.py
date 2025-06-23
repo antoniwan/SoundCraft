@@ -11,10 +11,14 @@ class ChannelRackVolumeScreenView(View):
         self.display_volume(action.control, action.channel)
 
     def handle_ChannelVolumePreviewedAction(self, action):
+        # The two calls to suspend_trigger in this method are another work-around for the FW bug CTRL-232.
+        # When the FW bug is fixed, the suspend_trigger calls should be removed.
+        self.screen_writer.suspend_trigger(True)
         if action.channel >= self.fl.channel_count():
             self.screen_writer.display_parameter(action.control, title="", name="Not Used", value="")
         else:
             self.display_volume(action.control, action.channel)
+        self.screen_writer.suspend_trigger(False)
 
     def display_volume(self, control, channel):
         volume = self.fl.get_channel_volume_dB(channel)

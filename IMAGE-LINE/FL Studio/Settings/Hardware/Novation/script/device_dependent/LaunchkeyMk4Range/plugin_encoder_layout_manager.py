@@ -6,15 +6,14 @@ from script.device_independent.view import (
     PluginParameterView,
 )
 from script.plugin import plugin_parameter_mappings
+from util.control_to_index import make_control_to_index
 
 
 class PluginEncoderLayoutManager:
     def __init__(self, action_dispatcher, fl, product_defs, screen_writer, device_manager):
         self.device_manager = device_manager
         self.screen_writer = screen_writer
-        control_to_index = {
-            Encoders.FirstControlIndex.value + control: index for index, control in enumerate(range(Encoders.Num.value))
-        }
+        control_to_index = make_control_to_index(Encoders.FirstControlIndex.value, Encoders.Num.value)
         self.views = [
             FLStudioTextView(screen_writer, action_dispatcher),
             PluginParameterView(action_dispatcher, fl, plugin_parameter_mappings, control_to_index=control_to_index),

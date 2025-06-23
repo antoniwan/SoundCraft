@@ -2,6 +2,7 @@ from script.constants import DeviceId
 
 from .flkey_device_setup import FLkeyDeviceSetup
 from .flkeymini_device_setup import FLkeyMiniDeviceSetup
+from .launchcontrolxl_mk3_device_setup import LaunchControlXlMk3DeviceSetup
 from .launchkey_device_setup import LaunchkeyDeviceSetup
 from .launchkey_mk4_device_setup import LaunchkeyMk4DeviceSetup
 from .launchkeymini_device_setup import LaunchkeyMiniDeviceSetup
@@ -32,4 +33,6 @@ def make_device_setup(device_id, sender, product_defs):
         return LaunchkeyMiniMk4DeviceSetup(sender, product_defs)
     if device_id == DeviceId.LaunchkeyMk4:
         return LaunchkeyMk4DeviceSetup(sender, product_defs)
+    if device_id == DeviceId.LaunchControlXlMk3:
+        return LaunchControlXlMk3DeviceSetup(sender, product_defs)
     return None

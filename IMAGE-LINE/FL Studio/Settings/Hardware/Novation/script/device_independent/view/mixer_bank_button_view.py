@@ -2,7 +2,8 @@ from script.actions import MixerBankChangeAttemptedAction, MixerBankChangedActio
 from script.constants import Pots, ScrollingSpeed
 from script.device_independent.util_view import View
 from script.device_independent.util_view.scrolling_arrow_button_view import ScrollingArrowButtonView
-from script.fl_constants import DockSide, FlConstants
+from script.fl_constants import DockSide
+from script.fl_utils import FlUtils
 
 
 class MixerBankButtonView(View):
@@ -12,6 +13,7 @@ class MixerBankButtonView(View):
     def __init__(self, action_dispatcher, button_led_writer, fl, product_defs, model):
         super().__init__(action_dispatcher)
         self.fl = fl
+        self.fl_utils = FlUtils(fl)
         self.model = model
         self.arrow_button_view = ScrollingArrowButtonView(
             action_dispatcher,
@@ -86,17 +88,10 @@ class MixerBankButtonView(View):
         self.arrow_button_view.set_page_range(first_page=0, last_page=num_banks - 1)
         self._on_page_changed()
 
-    def _get_tracks_for_dock_side(self, dock_side):
-        return [
-            track
-            for track in range(self.model.last_mixer_track_index + 1)
-            if self.fl.get_dock_side_for_track(track) is dock_side and track != FlConstants.CurrentTrackIndex.value
-        ]
-
     def _get_all_tracks_in_displayed_order_per_dockside(self):
-        tracks_for_left_dock = self._get_tracks_for_dock_side(DockSide.Left.value)
-        tracks_for_center_dock = self._get_tracks_for_dock_side(DockSide.Center.value)
-        tracks_for_right_dock = self._get_tracks_for_dock_side(DockSide.Right.value)
+        tracks_for_left_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Left.value)
+        tracks_for_center_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Center.value)
+        tracks_for_right_dock = self.fl_utils.get_mixer_tracks_for_dock_side(DockSide.Right.value)
         return [
             tracks_for_left_dock,
             tracks_for_center_dock,

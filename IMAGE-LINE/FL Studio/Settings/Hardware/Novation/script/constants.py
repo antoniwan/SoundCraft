@@ -12,6 +12,7 @@ class DeviceId(CustomEnum):
     FLkey61 = 6
     LaunchkeyMiniMk4 = 7
     LaunchkeyMk4 = 8
+    LaunchControlXlMk3 = 9
 
 
 class ValidationState(CustomEnum):
@@ -45,6 +46,16 @@ class Faders(CustomEnum):
 class FaderArmMuteMode(CustomEnum):
     Arm = 0
     Mute = 1
+
+
+class FaderSoloArmMode(CustomEnum):
+    Solo = 0
+    Arm = 1
+
+
+class FaderMuteSelectMode(CustomEnum):
+    Mute = 0
+    Select = 1
 
 
 class ControlChangeType(CustomEnum):

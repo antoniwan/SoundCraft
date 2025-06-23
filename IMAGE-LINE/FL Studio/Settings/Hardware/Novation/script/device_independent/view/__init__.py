@@ -3,6 +3,8 @@ from .channel_bank_controls_highlight_view import ChannelBankControlsHighlightVi
 from .channel_bank_names_highlight_view import ChannelBankNamesHighlightView
 from .channel_bank_selected_screen_view import ChannelBankSelectedScreenView
 from .channel_bank_view import ChannelBankView
+from .channel_mute_mode_screen_view import ChannelMuteModeScreenView
+from .channel_mute_toggle_view import ChannelMuteToggleView
 from .channel_rack_drum_pads_view import ChannelRackDrumPadsView
 from .channel_rack_pan_preview_view import ChannelRackPanPreviewView
 from .channel_rack_pan_screen_view import ChannelRackPanScreenView
@@ -10,6 +12,8 @@ from .channel_rack_pan_view import ChannelRackPanView
 from .channel_rack_volume_preview_view import ChannelRackVolumePreviewView
 from .channel_rack_volume_screen_view import ChannelRackVolumeScreenView
 from .channel_rack_volume_view import ChannelRackVolumeView
+from .channel_select_in_bank_view import ChannelSelectInBankView
+from .channel_select_mode_screen_view import ChannelSelectModeScreenView
 from .channel_select_name_highlight_view import ChannelSelectNameHighlightView
 from .channel_select_steps_highlight_view import ChannelSelectStepsHighlightView
 from .channel_select_view import ChannelSelectView
@@ -35,21 +39,26 @@ from .mixer_bank_highlight_view import MixerBankHighlightView
 from .mixer_bank_screen_view import MixerBankScreenView
 from .mixer_bank_view import MixerBankView
 from .mixer_master_volume_view import MixerMasterVolumeView
+from .mixer_mute_select_screen_view import MixerMuteSelectScreenView
 from .mixer_mute_view import MixerMuteView
 from .mixer_pan_preview_view import MixerPanPreviewView
 from .mixer_pan_screen_view import MixerPanScreenView
 from .mixer_pan_view import MixerPanView
+from .mixer_solo_arm_screen_view import MixerSoloArmScreenView
 from .mixer_solo_mute_screen_view import MixerSoloMuteScreenView
 from .mixer_solo_mute_toggle_view import MixerSoloMuteToggleView
 from .mixer_solo_mute_view import MixerSoloMuteView
 from .mixer_track_eq_preview_view import MixerTrackEqPreviewView
 from .mixer_track_eq_screen_view import MixerTrackEqScreenView
 from .mixer_track_eq_view import MixerTrackEqView
+from .mixer_track_mute_toggle_view import MixerTrackMuteToggleView
 from .mixer_track_plugin_select_view import MixerTrackPluginSelectView
 from .mixer_track_plugin_selected_screen_view import MixerTrackPluginSelectedScreenView
 from .mixer_track_record_arm_toggle_view import MixerTrackRecordArmToggleView
+from .mixer_track_select_in_bank_view import MixerTrackSelectInBankView
 from .mixer_track_select_view import MixerTrackSelectView
 from .mixer_track_selected_screen_view import MixerTrackSelectedScreenView
+from .mixer_track_solo_toggle_view import MixerTrackSoloToggleView
 from .mixer_volume_preview_view import MixerVolumePreviewView
 from .mixer_volume_screen_view import MixerVolumeScreenView
 from .mixer_volume_view import MixerVolumeView
@@ -57,6 +66,7 @@ from .not_used_preview_view import NotUsedPreviewView
 from .pattern_select_bank_view import PatternSelectBankView
 from .pattern_select_screen_view import PatternSelectScreenView
 from .pattern_select_view import PatternSelectView
+from .plugin_parameter_led_view import PluginParameterLedView
 from .plugin_parameter_preview_view import PluginParameterPreviewView
 from .plugin_parameter_screen_view import PluginParameterScreenView
 from .plugin_parameter_view import PluginParameterView
@@ -107,6 +117,8 @@ __all__ = [
     "ChannelBankNamesHighlightView",
     "ChannelBankSelectedScreenView",
     "ChannelBankView",
+    "ChannelMuteModeScreenView",
+    "ChannelMuteToggleView",
     "ChannelRackDrumPadsView",
     "ChannelRackPanPreviewView",
     "ChannelRackPanScreenView",
@@ -114,6 +126,8 @@ __all__ = [
     "ChannelRackVolumePreviewView",
     "ChannelRackVolumeScreenView",
     "ChannelRackVolumeView",
+    "ChannelSelectInBankView",
+    "ChannelSelectModeScreenView",
     "ChannelSelectNameHighlightView",
     "ChannelSelectStepsHighlightView",
     "ChannelSelectView",
@@ -140,21 +154,26 @@ __all__ = [
     "MixerBankScreenView",
     "MixerBankView",
     "MixerMasterVolumeView",
+    "MixerMuteSelectScreenView",
     "MixerMuteView",
     "MixerPanPreviewView",
     "MixerPanScreenView",
     "MixerPanView",
+    "MixerSoloArmScreenView",
     "MixerSoloMuteScreenView",
     "MixerSoloMuteToggleView",
     "MixerSoloMuteView",
     "MixerTrackEqPreviewView",
     "MixerTrackEqScreenView",
     "MixerTrackEqView",
+    "MixerTrackMuteToggleView",
     "MixerTrackPluginSelectView",
     "MixerTrackPluginSelectedScreenView",
     "MixerTrackRecordArmToggleView",
+    "MixerTrackSelectInBankView",
     "MixerTrackSelectView",
     "MixerTrackSelectedScreenView",
+    "MixerTrackSoloToggleView",
     "MixerVolumePreviewView",
     "MixerVolumeScreenView",
     "MixerVolumeView",
@@ -162,6 +181,7 @@ __all__ = [
     "PatternSelectBankView",
     "PatternSelectScreenView",
     "PatternSelectView",
+    "PluginParameterLedView",
     "PluginParameterPreviewView",
     "PluginParameterScreenView",
     "PluginParameterView",

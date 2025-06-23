@@ -1,5 +1,6 @@
 from script.actions import MixerTrackEqChangedAction
-from script.constants import EqBand, EqParameter
+from script.colours import Colours
+from script.constants import EqBand, EqParameter, Pots
 from script.device_independent.util_view import View
 from script.fl_constants import RefreshFlags
 from util.deadzone import RelativeDeadzone
@@ -15,15 +16,18 @@ class MixerTrackEqView(View):
         (EqParameter.Gain, EqBand.HighShelf.value),
     ]
 
-    def __init__(self, action_dispatcher, fl, *, control_to_index):
+    def __init__(self, action_dispatcher, fl, product_defs=None, led_writer=None, *, control_to_index):
         super().__init__(action_dispatcher)
         self.action_dispatcher = action_dispatcher
         self.fl = fl
         self.control_to_index = control_to_index
         self.deadzone_for_index = []
+        self.product_defs = product_defs
+        self.led_writer = led_writer
 
     def _on_show(self):
         self._update_parameters()
+        self._update_leds()
 
     def handle_ControlChangedAction(self, action):
         index = self.control_to_index.get(action.control)
@@ -45,6 +49,7 @@ class MixerTrackEqView(View):
 
     def handle_MixerTrackSelectedAction(self, action):
         self._update_parameters()
+        self._update_leds()
 
     def handle_OnRefreshAction(self, action):
         if action.flags & RefreshFlags.MixerSelection.value:
@@ -60,3 +65,20 @@ class MixerTrackEqView(View):
                 self.deadzone_for_index[index] = RelativeDeadzone(maximum=1.0, centre=0.5, width=0.05)
             else:
                 self.deadzone_for_index[index] = RelativeDeadzone(maximum=1.0, centre=None, width=0.05)
+
+    def _update_leds(self):
+        if self.led_writer is None or self.product_defs is None:
+            return
+
+        encoder_first_index = self.product_defs.Constants.EqControlFirstIndex.value
+        encoder_cc_offset = encoder_first_index + self.product_defs.Constants.EncoderCcOffset.value
+        for index, control in enumerate(self.controls):
+            encoder = self.control_to_index.get(index + encoder_first_index) + encoder_cc_offset
+            eq_parameter, band = control
+            colour = Colours.eq_parameter_gain if eq_parameter == EqParameter.Gain else Colours.eq_parameter_frequency
+            self.led_writer.set_pad_colour(encoder, colour, target=self.product_defs.Constants.LightingTargetCC.value)
+        for index in range(len(self.controls), Pots.Num.value):
+            encoder = self.control_to_index.get(index + encoder_first_index) + encoder_cc_offset
+            self.led_writer.set_pad_colour(
+                encoder, Colours.off, target=self.product_defs.Constants.LightingTargetCC.value
+            )

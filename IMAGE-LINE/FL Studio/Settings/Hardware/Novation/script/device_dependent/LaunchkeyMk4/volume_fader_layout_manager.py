@@ -6,6 +6,7 @@ from script.device_independent.view import (
     MixerTrackRecordArmToggleView,
     MixerVolumeView,
 )
+from util.control_to_index import make_control_to_index
 
 
 class VolumeFaderLayoutManager:
@@ -26,10 +27,7 @@ class VolumeFaderLayoutManager:
         self.product_defs = product_defs
         self.model = model
         self.button_led_writer = button_led_writer
-        control_to_index = {
-            Faders.FirstControlIndex.value + control: index
-            for index, control in enumerate(range(Faders.NumRegularFaders.value))
-        }
+        control_to_index = make_control_to_index(Faders.FirstControlIndex.value, Faders.NumRegularFaders.value)
         self.fader_view = MixerVolumeView(action_dispatcher, fl, model, control_to_index=control_to_index)
         self.arm_mute_screen_view = MixerArmMuteScreenView(action_dispatcher, screen_writer)
         self.mixer_record_arm_view = MixerTrackRecordArmToggleView(

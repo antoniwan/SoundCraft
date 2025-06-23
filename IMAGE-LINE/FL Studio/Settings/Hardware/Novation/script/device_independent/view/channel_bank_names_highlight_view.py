@@ -3,12 +3,12 @@ from script.device_independent.util_view.view import View
 
 
 class ChannelBankNamesHighlightView(View):
-    num_steps_per_page = Pads.Num.value
 
-    def __init__(self, action_dispatcher, fl, model):
+    def __init__(self, action_dispatcher, fl, model, *, num_channels=Pads.Num.value):
         super().__init__(action_dispatcher)
         self.fl = fl
         self.model = model
+        self.num_channels = num_channels
 
     def _on_show(self):
         if self.model.show_all_highlights_active:
@@ -35,5 +35,5 @@ class ChannelBankNamesHighlightView(View):
     def _highlight_and_focus_selected_channel_bank_names(self, *, duration_ms=HighlightDuration.WithoutEnd.value):
         selected_channel = self.model.channel_rack.active_bank * ChannelNavigationSteps.Bank.value
         self.fl.highlight_and_focus_channelrack_names(
-            first_channel=selected_channel, num_channels=Pads.Num.value, duration_ms=duration_ms
+            first_channel=selected_channel, num_channels=self.num_channels, duration_ms=duration_ms
         )

@@ -1,0 +1,15 @@
+fileversion=2
+iconindex=48
+color=$40B6F6
+tip=FL / 64 bit
+ps_name=Toxic Biohazard
+ps_presetfilename=%FLPluginDBPath%\Installed\Generators\Fruity\Toxic Biohazard.fst
+ps_files=1
+ps_file_name_0=Toxic Biohazard
+ps_file_filename_0=%FLPath%\Plugins\Fruity\Generators\Toxic Biohazard\Toxic Biohazard_x64.dll
+ps_file_plugclass_0=3
+ps_file_type_0=2
+ps_file_bitsize_0=64
+ps_file_arch_0=Intel
+ps_file_scanflags_0=1
+ps_file_vendorname_0=Image-Line

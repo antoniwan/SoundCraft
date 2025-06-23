@@ -1,0 +1,15 @@
+fileversion=2
+iconindex=48
+color=$40B6F6
+tip=VST / 64 bit
+ps_name=FL Studio VSTi
+ps_presetfilename=%FLPluginDBPath%\Installed\Generators\VST\FL Studio VSTi.fst
+ps_files=1
+ps_file_name_0=FL Studio VSTi
+ps_file_filename_0=C:\Program Files\Common Files\VST2\FL Studio VSTi.dll
+ps_file_plugclass_0=0
+ps_file_bitsize_0=64
+ps_file_arch_0=Intel
+ps_file_date_0=4676512146947339860
+ps_file_size_0=3655680
+ps_file_scanflags_0=0

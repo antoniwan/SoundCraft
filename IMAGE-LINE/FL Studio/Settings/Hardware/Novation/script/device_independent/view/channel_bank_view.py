@@ -8,7 +8,17 @@ from script.fl_constants import RefreshFlags
 
 
 class ChannelBankView(View):
-    def __init__(self, action_dispatcher, surface, fl, product_defs, model):
+    def __init__(
+        self,
+        action_dispatcher,
+        surface,
+        fl,
+        product_defs,
+        model,
+        *,
+        decrement_button="SelectPreviousChannel",
+        increment_button="SelectNextChannel",
+    ):
         super().__init__(action_dispatcher)
         self.fl = fl
         self.model = model
@@ -17,8 +27,8 @@ class ChannelBankView(View):
             action_dispatcher,
             surface,
             product_defs,
-            decrement_button="SelectPreviousChannel",
-            increment_button="SelectNextChannel",
+            decrement_button=decrement_button,
+            increment_button=increment_button,
             on_page_changed=self._on_bank_changed,
             on_page_change_attempted=self._on_page_change_attempted,
             speed=ScrollingSpeed.Slow.value,

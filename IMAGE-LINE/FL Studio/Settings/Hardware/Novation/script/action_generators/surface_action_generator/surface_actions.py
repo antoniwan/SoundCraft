@@ -1,4 +1,4 @@
-from script.constants import FaderArmMuteMode
+from script.constants import FaderArmMuteMode, FaderMuteSelectMode, FaderSoloArmMode
 from util.custom_enum import CustomEnum
 from util.plain_data import PlainData
 
@@ -6,6 +6,26 @@ from util.plain_data import PlainData
 @PlainData
 class ArmSelectStateChangedAction:
     mode: FaderArmMuteMode
+
+
+@PlainData
+class SoloArmStateChangedAction:
+    mode: FaderSoloArmMode
+
+
+@PlainData
+class MuteSelectStateChangedAction:
+    mode: FaderMuteSelectMode
+
+
+@PlainData
+class ChannelMuteModeAction:
+    pass
+
+
+@PlainData
+class ChannelSelectModeAction:
+    pass
 
 
 @PlainData
@@ -32,6 +52,11 @@ class FaderLayoutChangedAction:
 
 @PlainData
 class EncoderLayoutChangedAction:
+    layout: CustomEnum
+
+
+@PlainData
+class DeviceLayoutChangedAction:
     layout: CustomEnum
 
 

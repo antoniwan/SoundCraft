@@ -72,6 +72,15 @@ class SurfaceEvent(CustomEnum):
     ButtonPadsPageDownShift = 0xB0, 0x67
 
 
+class DisplayAddress(CustomEnum):
+    Permanent = 0x20
+    Overlay = 0x21
+    FirstEncoder = 0x15
+    LastEncoder = 0x1C
+    FirstFader = 0x05
+    LastFader = 0x0C
+
+
 FunctionToButton = {
     "ShiftModifier": Button.Shift,
     "ShowHighlights": Button.Shift,
@@ -112,6 +121,7 @@ class LaunchkeyMiniMk4ProductDefs:
         self.PadLayout = PadLayout
         self.EncoderLayout = EncoderLayout
         self.SurfaceEvent = SurfaceEvent
+        self.DisplayAddress = DisplayAddress
         self.FunctionToButton = FunctionToButton
         self.ButtonToLedIndex = ButtonToLedIndex
         self.EncoderIndexToControlIndex = EncoderIndexToControlIndex

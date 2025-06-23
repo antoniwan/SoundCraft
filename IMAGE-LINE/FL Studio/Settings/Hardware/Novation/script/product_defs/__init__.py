@@ -1,6 +1,7 @@
 from script.constants import DeviceId
 from script.product_defs.flkey_product_defs import FLkeyProductDefs
 from script.product_defs.flkeymini_product_defs import FLkeyMiniProductDefs
+from script.product_defs.launchcontrolxl_mk3_product_defs import LaunchControlXlMk3ProductDefs
 from script.product_defs.launchkey88_product_defs import Launchkey88ProductDefs
 from script.product_defs.launchkey_mk4_product_defs import LaunchkeyMk4ProductDefs
 from script.product_defs.launchkey_product_defs import LaunchkeyProductDefs
@@ -35,4 +36,6 @@ def make_product_defs(device_id):
         return LaunchkeyMk4ProductDefs()
     if device_id == DeviceId.Launchkey88:
         return Launchkey88ProductDefs()
+    if device_id == DeviceId.LaunchControlXlMk3:
+        return LaunchControlXlMk3ProductDefs()
     return None

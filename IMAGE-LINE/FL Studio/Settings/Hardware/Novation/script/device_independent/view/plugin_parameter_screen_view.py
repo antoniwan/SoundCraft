@@ -95,7 +95,10 @@ class PluginParameterScreenView(View):
     def _get_selected_name(self):
         if self.fl.get_selected_plugin_type() == PluginType.Effect:
             return self.fl.get_mixer_track_name(self.fl.get_selected_mixer_track())
-        return self.fl.get_channel_name(self.fl.selected_channel())
+        selected_channel = self.fl.selected_channel()
+        if selected_channel is None:
+            return None
+        return self.fl.get_channel_name(selected_channel)
 
     def _get_region_name_for_value(self, discrete_regions, value):
         for lower_boundary, name in reversed(discrete_regions):

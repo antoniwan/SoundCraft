@@ -2,6 +2,7 @@ from script.constants import DeviceId
 
 from .flkey_surface_action_generator import FLkeySurfaceActionGenerator
 from .flkeymini_surface_action_generator import FLkeyMiniSurfaceActionGenerator
+from .launchcontrolxl_mk3_surface_action_generator import LaunchControlXlMk3SurfaceActionGenerator
 from .launchkey_mk4_surface_action_generator import LaunchkeyMk4SurfaceActionGenerator
 from .launchkey_surface_action_generator import LaunchkeySurfaceActionGenerator
 from .launchkeymini_mk4_surface_action_generator import LaunchkeyMiniMk4SurfaceActionGenerator
@@ -33,4 +34,6 @@ def make_surface_action_generator(device_id, action_dispatcher, product_defs):
         return SurfaceActionGeneratorWrapper(action_dispatcher, LaunchkeyMiniMk4SurfaceActionGenerator(product_defs))
     if device_id == DeviceId.LaunchkeyMk4:
         return SurfaceActionGeneratorWrapper(action_dispatcher, LaunchkeyMk4SurfaceActionGenerator(product_defs))
+    if device_id == DeviceId.LaunchControlXlMk3:
+        return SurfaceActionGeneratorWrapper(action_dispatcher, LaunchControlXlMk3SurfaceActionGenerator(product_defs))
     return None
